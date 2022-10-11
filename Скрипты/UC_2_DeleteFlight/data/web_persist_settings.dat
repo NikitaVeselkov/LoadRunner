@@ -1,0 +1,11 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2022/10/07 17:37:50
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2022/10/08 10:46:54
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2022/10/09 08:46:37
+StartRecordingIsDst_3=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0
+[Security]
+UsingPersistForAuthentication=1

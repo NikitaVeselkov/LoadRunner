@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Nikitka\Documents\VuGen\Scripts\UC_2_DeleteFlight
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\nikitka\documents\vugen\scripts\uc_2_deleteflight\\logfile.log
+c:\users\nikitka\documents\vugen\scripts\uc_2_deleteflight\\combined_UC_2_DeleteFlight.c
+c:\users\nikitka\documents\vugen\scripts\uc_2_deleteflight\\pre_cci.c
