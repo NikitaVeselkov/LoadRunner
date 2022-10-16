@@ -1,0 +1,92 @@
+Error: missing newline in C:\Users\Nikitka\Documents\VuGen\Scripts\UC_5_FindFlight\..\DataPool\seatPref.dat
+Virtual User Script started at: 16.10.2022 14:11:05
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Nikitka\Documents\VuGen\Scripts\UC_5_FindFlight\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "UC_5_FindFlight" started.
+..\\common_lib.h(64): Notify: Transaction "homePage" started.
+..\\common_lib.h(66): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(66): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\common_lib.h(70): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+..\\common_lib.h(70): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+..\\common_lib.h(79): web_url("WebTours") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(79): Detected non-resource "http://localhost:8090/WebTours/header.html" in "http://localhost:8090/WebTours/"  	[MsgId: MMSG-26574]
+..\\common_lib.h(79): Detected non-resource "http://localhost:8090/WebTours/welcome.pl?signOff=true" in "http://localhost:8090/WebTours/"  	[MsgId: MMSG-26574]
+..\\common_lib.h(79): Found resource "http://localhost:8090/WebTours/images/jmeter_logo.png" in HTML "http://localhost:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+..\\common_lib.h(79): Found resource "http://localhost:8090/WebTours/images/webtours.png" in HTML "http://localhost:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+..\\common_lib.h(79): Found resource "http://localhost:8090/WebTours/images/in_home.gif" in HTML "http://localhost:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+..\\common_lib.h(79): Detected non-resource "http://localhost:8090/WebTours/nav.pl?in=home" in "http://localhost:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\common_lib.h(79): Detected non-resource "http://localhost:8090/WebTours/home.html" in "http://localhost:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\common_lib.h(79): Found resource "http://localhost:8090/WebTours/images/fonJM.png" in HTML "http://localhost:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\common_lib.h(79): Found resource "http://localhost:8090/WebTours/images/mer_login.gif" in HTML "http://localhost:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\common_lib.h(79): web_url("WebTours") was successful, 40145 body bytes, 1955 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(89): Notify: Transaction "homePage" ended with a "Pass" status (Duration: 0,5805 Wasted Time: 0,0972).
+..\\common_lib.h(3): Notify: Transaction "login" started.
+..\\common_lib.h(5): web_set_sockets_option started  	[MsgId: MMSG-26355]
+..\\common_lib.h(5): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+..\\common_lib.h(7): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(7): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+..\\common_lib.h(7): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\common_lib.h(9): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(9): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\common_lib.h(14): web_reg_find started  	[MsgId: MMSG-26355]
+..\\common_lib.h(14): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\common_lib.h(17): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(17): Detected non-resource "http://localhost:8090/WebTours/nav.pl?page=menu&in=home" in "http://localhost:8090/WebTours/login.pl"  	[MsgId: MMSG-26574]
+..\\common_lib.h(17): Detected non-resource "http://localhost:8090/WebTours/login.pl?intro=true" in "http://localhost:8090/WebTours/login.pl"  	[MsgId: MMSG-26574]
+..\\common_lib.h(17): Resource "http://localhost:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(17): Found resource "http://localhost:8090/WebTours/images/flights.gif" in HTML "http://localhost:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\common_lib.h(17): Found resource "http://localhost:8090/WebTours/images/itinerary.gif" in HTML "http://localhost:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\common_lib.h(17): Resource "http://localhost:8090/WebTours/images/in_home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(17): Found resource "http://localhost:8090/WebTours/images/signoff.gif" in HTML "http://localhost:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\common_lib.h(17): Registered web_reg_find successful for "Text=Welcome, <b>UaJyNVEK</b>" (count=1)  	[MsgId: MMSG-26364]
+..\\common_lib.h(17): web_submit_data("login.pl") was successful, 5039 body bytes, 1354 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(35): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,6882 Wasted Time: 0,0051).
+..\\common_lib.h(96): Notify: Transaction "goToFlight" started.
+..\\common_lib.h(98): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(98): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\common_lib.h(102): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(102): Detected non-resource "http://localhost:8090/WebTours/nav.pl?page=menu&in=flights" in "http://localhost:8090/WebTours/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+..\\common_lib.h(102): Detected non-resource "http://localhost:8090/WebTours/reservations.pl?page=welcome" in "http://localhost:8090/WebTours/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+..\\common_lib.h(102): Found resource "http://localhost:8090/WebTours/images/button_next.gif" in HTML "http://localhost:8090/WebTours/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+..\\common_lib.h(102): Resource "http://localhost:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(102): Found resource "http://localhost:8090/WebTours/images/in_flights.gif" in HTML "http://localhost:8090/WebTours/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+..\\common_lib.h(102): Resource "http://localhost:8090/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(102): Found resource "http://localhost:8090/WebTours/images/home.gif" in HTML "http://localhost:8090/WebTours/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+..\\common_lib.h(102): Resource "http://localhost:8090/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(102): web_url("Search Flights Button") was successful, 8390 body bytes, 1173 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(112): Notify: Transaction "goToFlight" ended with a "Pass" status (Duration: 0,4697 Wasted Time: 0,0051).
+..\\common_lib.h(118): Notify: Transaction "findFlight" started.
+..\\common_lib.h(120): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(120): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\common_lib.h(125): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\common_lib.h(125): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\common_lib.h(136): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(136): Resource "http://localhost:8090/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(136): web_submit_data("reservations.pl") was successful, 2362 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(163): Notify: Transaction "findFlight" ended with a "Pass" status (Duration: 0,2215 Wasted Time: 0,0052).
+..\\common_lib.h(41): Notify: Transaction "logout" started.
+..\\common_lib.h(43): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(43): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\common_lib.h(48): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(48): Detected non-resource "http://localhost:8090/WebTours/nav.pl?in=home" in "http://localhost:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\common_lib.h(48): Detected non-resource "http://localhost:8090/WebTours/home.html" in "http://localhost:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\common_lib.h(48): Retrieving data from cache for "http://localhost:8090/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\common_lib.h(48): Resource "http://localhost:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(48): Resource "http://localhost:8090/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(48): web_url("SignOff Button") was successful, 3390 body bytes, 639 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(58): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0.4438 Wasted Time: 0.0034).
+Action.c(16): Notify: Transaction "UC_5_FindFlight" ended with a "Pass" status (Duration: 2.4897 Wasted Time: 0.1161).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
