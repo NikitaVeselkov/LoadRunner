@@ -1,0 +1,55 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP352",
+                "stepName": "Url: WebTours",
+                "infFile": "t2.inf",
+                "time": 1666955517589
+            },
+            {
+                "stepId": "STEP353",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1666955518460
+            },
+            {
+                "stepId": "STEP354",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t5.inf",
+                "time": 1666955519320
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "homePage",
+                "rawStartTime": 1666955516738,
+                "rawEndTime": 1666955517590,
+                "thinkTime": 0.0,
+                "wastedTime": 0.3961002826690674
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1666955517597,
+                "rawEndTime": 1666955518461,
+                "thinkTime": 0.0,
+                "wastedTime": 0.3992455005645752
+            },
+            {
+                "transactionName": "goToitinerary",
+                "rawStartTime": 1666955518474,
+                "rawEndTime": 1666955519322,
+                "thinkTime": 0.0,
+                "wastedTime": 0.3986356258392334
+            },
+            {
+                "transactionName": "UC_2_DeleteFlight",
+                "rawStartTime": 1666955516722,
+                "rawEndTime": 1666955519322,
+                "thinkTime": 0.0,
+                "wastedTime": 1.1954975128173829
+            }
+        ]
+    }
+]

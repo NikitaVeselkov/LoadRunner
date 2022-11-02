@@ -1,0 +1,879 @@
+..\\common_lib.h(259):     .0\r\n
+..\\common_lib.h(259):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(259):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(259):     Accept: */*\r\n
+..\\common_lib.h(259):     Connection: Keep-Alive\r\n
+..\\common_lib.h(259):     Host: localhost:8090\r\n
+..\\common_lib.h(259):     Cookie: MSO=SID&1665673974&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+..\\common_lib.h(259):     MTUserInfo=firstName&wGchGFxj&address2&teWIBJkC&username&sWBHELYH&hash&104&lastName&DJxKwy
+..\\common_lib.h(259):     pg%0A&address1&teWIBJkC&creditCard&&expDate&%0A\r\n
+..\\common_lib.h(259):     \r\n
+..\\common_lib.h(259): t=244381ms: 164-byte response headers for "http://localhost:8090/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=74)
+..\\common_lib.h(259):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(259):     Server: Xitami\r\n
+..\\common_lib.h(259):     Date: Thu, 13 Oct 2022 15:13:14 GMT\r\n
+..\\common_lib.h(259):     Content-type: image/gif\r\n
+..\\common_lib.h(259):     Content-length: 733\r\n
+..\\common_lib.h(259):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+..\\common_lib.h(259):     \r\n
+..\\common_lib.h(259): t=244381ms: 733-byte response body for "http://localhost:8090/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=74)
+..\\common_lib.h(259): t=244381ms: Request done "http://localhost:8090/WebTours/images/in_itinerary.gif"  	[MsgId: MMSG-26000]
+..\\common_lib.h(259): t=244381ms: 164-byte response headers for "http://localhost:8090/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=76)
+..\\common_lib.h(259):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(259):     Server: Xitami\r\n
+..\\common_lib.h(259):     Date: Thu, 13 Oct 2022 15:13:14 GMT\r\n
+..\\common_lib.h(259):     Content-type: image/gif\r\n
+..\\common_lib.h(259):     Content-length: 831\r\n
+..\\common_lib.h(259):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+..\\common_lib.h(259):     \r\n
+..\\common_lib.h(259): t=244381ms: 164-byte response headers for "http://localhost:8090/WebTours/images/home.gif" (RelFrameId=, Internal ID=75)
+..\\common_lib.h(259):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(259):     Server: Xitami\r\n
+..\\common_lib.h(259):     Date: Thu, 13 Oct 2022 15:13:14 GMT\r\n
+..\\common_lib.h(259):     Content-type: image/gif\r\n
+..\\common_lib.h(259):     Content-length: 688\r\n
+..\\common_lib.h(259):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+..\\common_lib.h(259):     \r\n
+..\\common_lib.h(259): t=244381ms: 688-byte response body for "http://localhost:8090/WebTours/images/home.gif" (RelFrameId=, Internal ID=75)
+..\\common_lib.h(259): t=244381ms: Request done "http://localhost:8090/WebTours/images/home.gif"  	[MsgId: MMSG-26000]
+..\\common_lib.h(259): t=244382ms: 164-byte response headers for "http://localhost:8090/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=77)
+..\\common_lib.h(259):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(259):     Server: Xitami\r\n
+..\\common_lib.h(259):     Date: Thu, 13 Oct 2022 15:13:14 GMT\r\n
+..\\common_lib.h(259):     Content-type: image/gif\r\n
+..\\common_lib.h(259):     Content-length: 742\r\n
+..\\common_lib.h(259):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+..\\common_lib.h(259):     \r\n
+..\\common_lib.h(259): t=244382ms: 831-byte response body for "http://localhost:8090/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=76)
+..\\common_lib.h(259): t=244382ms: Request done "http://localhost:8090/WebTours/images/cancelreservation.gif"  	[MsgId: MMSG-26000]
+..\\common_lib.h(259): t=244382ms: 742-byte response body for "http://localhost:8090/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=77)
+..\\common_lib.h(259): t=244382ms: Request done "http://localhost:8090/WebTours/images/cancelallreservations.gif"  	[MsgId: MMSG-26000]
+..\\common_lib.h(259): web_url("Itinerary Button") was successful, 15224 body bytes, 1338 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(268): Notify: Transaction "goToitinerary" ended with a "Pass" status (Duration: 11,4599 Think Time: 11,0097 Wasted Time: 0,0002).	[MsgId: MMSG-16870]
+..\\common_lib.h(273): Notify: Transaction "deleteFirst" started.	[MsgId: MMSG-16999]
+..\\common_lib.h(275): web_reg_find started  	[MsgId: MMSG-26355]
+..\\common_lib.h(275): Notify: Parameter Substitution: parameter "deleteFlightID" =  "0-0-t"	[MsgId: MMSG-13992]
+..\\common_lib.h(275): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\common_lib.h(279): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(279): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+..\\common_lib.h(279): "Origin: http://localhost:8090" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\common_lib.h(279): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\common_lib.h(280): web_submit_form("itinerary.pl") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(280): Submitting form to "http://localhost:8090/WebTours/itinerary.pl", Target Frame=""  	[MsgId: MMSG-27978]
+..\\common_lib.h(280): t=244383ms: Already connected [0] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(280): t=244383ms: 672-byte request headers for "http://localhost:8090/WebTours/itinerary.pl" (RelFrameId=1, Internal ID=78)
+..\\common_lib.h(280):     POST /WebTours/itinerary.pl HTTP/1.1\r\n
+..\\common_lib.h(280):     Content-Type: application/x-www-form-urlencoded\r\n
+..\\common_lib.h(280):     Referer: http://localhost:8090/WebTours/itinerary.pl\r\n
+..\\common_lib.h(280):     Origin: http://localhost:8090\r\n
+..\\common_lib.h(280):     Upgrade-Insecure-Requests: 1\r\n
+..\\common_lib.h(280):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(280):     .0\r\n
+..\\common_lib.h(280):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(280):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(280):     Accept: */*\r\n
+..\\common_lib.h(280):     Connection: Keep-Alive\r\n
+..\\common_lib.h(280):     Host: localhost:8090\r\n
+..\\common_lib.h(280):     Cookie: MSO=SID&1665673974&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+..\\common_lib.h(280):     MTUserInfo=firstName&wGchGFxj&address2&teWIBJkC&username&sWBHELYH&hash&104&lastName&DJxKwy
+..\\common_lib.h(280):     pg%0A&address1&teWIBJkC&creditCard&&expDate&%0A\r\n
+..\\common_lib.h(280):     Content-Length: 285\r\n
+..\\common_lib.h(280):     \r\n
+..\\common_lib.h(280): t=244383ms: 285-byte request body for "http://localhost:8090/WebTours/itinerary.pl" (RelFrameId=1, Internal ID=78)
+..\\common_lib.h(280):     1=on&flightID=0-0-t&flightID=0-0-t&flightID=0-26257-40&flightID=0-31-1C&flightID=0-3-5&fli
+..\\common_lib.h(280):     ghtID=0-46331969-00&flightID=15314-0-wD&flightID=0-6-t&.cgifields=6&.cgifields=3&.cgifield
+..\\common_lib.h(280):     s=7&.cgifields=2&.cgifields=8&.cgifields=1&.cgifields=4&.cgifields=5&removeFlights.x=48&re
+..\\common_lib.h(280):     moveFlights.y=8
+..\\common_lib.h(280): t=244595ms: 253-byte response headers for "http://localhost:8090/WebTours/itinerary.pl" (RelFrameId=1, Internal ID=78)
+..\\common_lib.h(280):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(280):     Server: Xitami\r\n
+..\\common_lib.h(280):     Date: Thu, 13 Oct 2022 15:13:14 GMT\r\n
+..\\common_lib.h(280):     Cache-control: no-cache\r\n
+..\\common_lib.h(280):     Expires: 0\r\n
+..\\common_lib.h(280):     Content-length: 9086\r\n
+..\\common_lib.h(280):     Content-type: text/html; charset=ISO-8859-1\r\n
+..\\common_lib.h(280):     Date: Thu, 13 Oct 2022 15:13:14 GMT\r\n
+..\\common_lib.h(280):     Expires: Wed, 12 Oct 2022 15:13:14 GMT\r\n
+..\\common_lib.h(280):     \r\n
+..\\common_lib.h(280): t=244595ms: 9086-byte response body for "http://localhost:8090/WebTours/itinerary.pl" (RelFrameId=1, Internal ID=78)
+..\\common_lib.h(280):     <!DOCTYPE html\n
+..\\common_lib.h(280):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\common_lib.h(280):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\common_lib.h(280):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\common_lib.h(280):     <head>\n
+..\\common_lib.h(280):     <title>Flights List</title>\n
+..\\common_lib.h(280):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\common_lib.h(280):     </head>\n
+..\\common_lib.h(280):     <body bgcolor="#E0E7F1">\n
+..\\common_lib.h(280):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+..\\common_lib.h(280):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+..\\common_lib.h(280):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}
+..\\common_lib.h(280):     </style><BR><BR><h1><font color=#003366>&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquot
+..\\common_lib.h(280):     e><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">\n
+..\\common_lib.h(280):     <center>\n
+..\\common_lib.h(280):     <TABLE BORDER=0 WIDTH=85% CELLSPACING=0>\n
+..\\common_lib.h(280):     <TR bgcolor=#5E7884>\n
+..\\common_lib.h(280):       <TD colspan=4 align=center><font color=white><B>teWIBJkC\n
+..\\common_lib.h(280):       's Flight Transaction Summary</B></color></TD></TR>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <!-- Flight #1 -->\n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD width=5% rowspan=2 align=left valign=top>\n
+..\\common_lib.h(280):     <b>\n
+..\\common_lib.h(280):     <label><input type="checkbox" name="1" value="on" /></label></font></b>\n
+..\\common_lib.h(280):     <input type="hidden" name="flightID" value="0-0-t"  />\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):       <TD width=45% valign=top>\n
+..\\common_lib.h(280):           <b>&nbsp;&nbsp;wGchGFxj DJxKwypg\n
+..\\common_lib.h(280):      class tickets for :</b><br>\n
+..\\common_lib.h(280):           <center><table border=0 width=85%><tr><td>\n
+..\\common_lib.h(280):           <li><i>teWIBJkC\n
+..\\common_lib.h(280):           <li><i></i>\n
+..\\common_lib.h(280):           </td></tr></table></center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+..\\common_lib.h(280):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+..\\common_lib.h(280):           <center>\n
+..\\common_lib.h(280):           <Table width=80% cellspacing=0 > <tr> <td>\n
+..\\common_lib.h(280):               teWIBJkC\n
+..\\common_lib.h(280):      <br>\n
+..\\common_lib.h(280):               4135;03/25<br>\n
+..\\common_lib.h(280):               1;First;wGchGFxj DJxKwypg<br>\n
+..\\common_lib.h(280):               <br>\n
+..\\common_lib.h(280):               Total Charge: $ 0 <BR> (CC: x-)\n
+..\\common_lib.h(280):           </td> </tr> </table>\n
+..\\common_lib.h(280):           </center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD COLSPAN=3>\n
+..\\common_lib.h(280):       <b>Flight Details:</b><BR>  <center>\n
+..\\common_lib.h(280):        :  8am : Flight  leaves Denver  for Denver.<br>  </center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD COLSPAN=4>\n
+..\\common_lib.h(280):       <hr>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <!-- Flight #1 -->\n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD width=5% rowspan=2 align=left valign=top>\n
+..\\common_lib.h(280):     <b>\n
+..\\common_lib.h(280):     <label><input type="checkbox" name="2" value="on" /></label></font></b>\n
+..\\common_lib.h(280):     <input type="hidden" name="flightID" value="0-1-1C"  />\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):       <TD width=45% valign=top>\n
+..\\common_lib.h(280):           <b>&nbsp;&nbsp;teWIBJkC\n
+..\\common_lib.h(280):       class tickets for :</b><br>\n
+..\\common_lib.h(280):           <center><table border=0 width=85%><tr><td>\n
+..\\common_lib.h(280):           <li><i>      <li><i>4135      <li><i>03/25\n
+..\\common_lib.h(280):           <li><i></i>\n
+..\\common_lib.h(280):           </td></tr></table></center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+..\\common_lib.h(280):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+..\\common_lib.h(280):           <center>\n
+..\\common_lib.h(280):           <Table width=80% cellspacing=0 > <tr> <td>\n
+..\\common_lib.h(280):               1 Coach<br>\n
+..\\common_lib.h(280):               ;562;71;10/13/2022<br>\n
+..\\common_lib.h(280):               0;0wGchGFxj;DJxKwypg<br>\n
+..\\common_lib.h(280):               <br>\n
+..\\common_lib.h(280):               Total Charge: $ 0 <BR> (CC: x-)\n
+..\\common_lib.h(280):           </td> </tr> </table>\n
+..\\common_lib.h(280):           </center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD COLSPAN=3>\n
+..\\common_lib.h(280):       <b>Flight Details:</b><BR>  <center>\n
+..\\common_lib.h(280):       Coach :  8am : Flight  leaves Denver  for Denver.<br>  </center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD COLSPAN=4>\n
+..\\common_lib.h(280):       <hr>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <!-- Flight #1 -->\n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD width=5% rowspan=2 align=left valign=top>\n
+..\\common_lib.h(280):     <b>\n
+..\\common_lib.h(280):     <label><input type="checkbox" name="3" value="on" /></label></font></b>\n
+..\\common_lib.h(280):     <input type="hidden" name="flightID" value="20-23255682-00"  />\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):       <TD width=45% valign=top>\n
+..\\common_lib.h(280):           <b>&nbsp;&nbsp;4135 03/25\n
+..\\common_lib.h(280):      class tickets for :</b><br>\n
+..\\common_lib.h(280):           <center><table border=0 width=85%><tr><td>\n
+..\\common_lib.h(280):           <li><i>1      <li><i>Coach      <li><i>wGchGFxj DJxKwypg\n
+..\\common_lib.h(280):           <li><i></i>\n
+..\\common_lib.h(280):           </td></tr></table></center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+..\\common_lib.h(280):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+..\\common_lib.h(280):           <center>\n
+..\\common_lib.h(280):           <Table width=80% cellspacing=0 > <tr> <td>\n
+..\\common_lib.h(280):               0 0<br>\n
+..\\common_lib.h(280):               GFxj;DJxKwypg<br>\n
+..\\common_lib.h(280):               ;teWIBJkC<br>\n
+..\\common_lib.h(280):               <br>\n
+..\\common_lib.h(280):               Total Charge: $ 2323870 <BR> (CC: x-)\n
+..\\common_lib.h(280):           </td> </tr> </table>\n
+..\\common_lib.h(280):           </center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD COLSPAN=3>\n
+..\\common_lib.h(280):       <b>Flight Details:</b><BR>  <center>\n
+..\\common_lib.h(280):       71 :  8am : Flight  leaves Denver  for Denver.<br>  </center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD COLSPAN=4>\n
+..\\common_lib.h(280):       <hr>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <!-- Flight #1 -->\n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD width=5% rowspan=2 align=left valign=top>\n
+..\\common_lib.h(280):     <b>\n
+..\\common_lib.h(280):     <label><input type="checkbox" name="4" value="on" /></label></font></b>\n
+..\\common_lib.h(280):     <input type="hidden" name="flightID" value="0-3-wD"  />\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):       <TD width=45% valign=top>\n
+..\\common_lib.h(280):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br>\n
+..\\common_lib.h(280):           <center><table border=0 width=85%><tr><td>\n
+..\\common_lib.h(280):           <li><i>560      <li><i>750      <li><i>0      <li><i>0\n
+..\\common_lib.h(280):           <li><i></i>\n
+..\\common_lib.h(280):           </td></tr></table></center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+..\\common_lib.h(280):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+..\\common_lib.h(280):           <center>\n
+..\\common_lib.h(280):           <Table width=80% cellspacing=0 > <tr> <td>\n
+..\\common_lib.h(280):               wGchGFxj DJxKwypg\n
+..\\common_lib.h(280):     <br>\n
+..\\common_lib.h(280):               ;teWIBJkC<br>\n
+..\\common_lib.h(280):               teWIBJkC<br>\n
+..\\common_lib.h(280):               <br>\n
+..\\common_lib.h(280):               Total Charge: $ 0 <BR> (CC: x-)\n
+..\\common_lib.h(280):           </td> </tr> </table>\n
+..\\common_lib.h(280):           </center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD COLSPAN=3>\n
+..\\common_lib.h(280):       <b>Flight Details:</b><BR>  <center>\n
+..\\common_lib.h(280):        :  8am : Flight wGchGFxj leaves Denver  for Denver.<br>  </center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD COLSPAN=4>\n
+..\\common_lib.h(280):       <hr>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <!-- Flight #1 -->\n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD width=5% rowspan=2 align=left valign=top>\n
+..\\common_lib.h(280):     <b>\n
+..\\common_lib.h(280):     <label><input type="checkbox" name="5" value="on" /></label></font></b>\n
+..\\common_lib.h(280):     <input type="hidden" name="flightID" value="0-41642-J"  />\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):       <TD width=45% valign=top>\n
+..\\common_lib.h(280):           <b>&nbsp;&nbsp;wGchGFxj DJxKwypg\n
+..\\common_lib.h(280):      class tickets for :</b><br>\n
+..\\common_lib.h(280):           <center><table border=0 width=85%><tr><td>\n
+..\\common_lib.h(280):           <li><i>teWIBJkC\n
+..\\common_lib.h(280):           <li><i></i>\n
+..\\common_lib.h(280):           </td></tr></table></center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+..\\common_lib.h(280):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+..\\common_lib.h(280):           <center>\n
+..\\common_lib.h(280):           <Table width=80% cellspacing=0 > <tr> <td>\n
+..\\common_lib.h(280):               JkC\n
+..\\common_lib.h(280):      <br>\n
+..\\common_lib.h(280):               ;4135;03/25<br>\n
+..\\common_lib.h(280):               ;1;First;wGchGFxj DJxKwypg<br>\n
+..\\common_lib.h(280):               <br>\n
+..\\common_lib.h(280):               Total Charge: $ 0 <BR> (CC: x-)\n
+..\\common_lib.h(280):           </td> </tr> </table>\n
+..\\common_lib.h(280):           </center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD COLSPAN=3>\n
+..\\common_lib.h(280):       <b>Flight Details:</b><BR>  <center>\n
+..\\common_lib.h(280):        :  8am : Flight teWIBJkC\n
+..\\common_lib.h(280):      leaves Denver  for Denver.<br>   :   : Flight 4135 leaves   for Los Angeles.<br>  </cente
+..\\common_lib.h(280):     r>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD COLSPAN=4>\n
+..\\common_lib.h(280):       <hr>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <!-- Flight #1 -->\n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD width=5% rowspan=2 align=left valign=top>\n
+..\\common_lib.h(280):     <b>\n
+..\\common_lib.h(280):     <label><input type="checkbox" name="6" value="on" /></label></font></b>\n
+..\\common_lib.h(280):     <input type="hidden" name="flightID" value="0-46-1C"  />\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):       <TD width=45% valign=top>\n
+..\\common_lib.h(280):           <b>&nbsp;&nbsp;  class tickets for :</b><br>\n
+..\\common_lib.h(280):           <center><table border=0 width=85%><tr><td>\n
+..\\common_lib.h(280):     teWIBJkC\n
+..\\common_lib.h(280):           <li><i></i>\n
+..\\common_lib.h(280):           </td></tr></table></center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+..\\common_lib.h(280):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+..\\common_lib.h(280):           <center>\n
+..\\common_lib.h(280):           <Table width=80% cellspacing=0 > <tr> <td>\n
+..\\common_lib.h(280):               1 Coach<br>\n
+..\\common_lib.h(280):               ;560;75;10/13/2022<br>\n
+..\\common_lib.h(280):               0;0;0<br>\n
+..\\common_lib.h(280):               <br>\n
+..\\common_lib.h(280):               Total Charge: $ 0 <BR> (CC: x-GFxj)\n
+..\\common_lib.h(280):           </td> </tr> </table>\n
+..\\common_lib.h(280):           </center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD COLSPAN=3>\n
+..\\common_lib.h(280):       <b>Flight Details:</b><BR>  <center>\n
+..\\common_lib.h(280):        :   : Flight 4135 leaves   for Los Angeles.<br>  560 :  1pm : Flight 1 leaves Denver  f
+..\\common_lib.h(280):     or Denver.<br>  </center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD COLSPAN=4>\n
+..\\common_lib.h(280):       <hr>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <!-- Flight #1 -->\n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD width=5% rowspan=2 align=left valign=top>\n
+..\\common_lib.h(280):     <b>\n
+..\\common_lib.h(280):     <label><input type="checkbox" name="7" value="on" /></label></font></b>\n
+..\\common_lib.h(280):     <input type="hidden" name="flightID" value="0-5-"  />\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):       <TD width=45% valign=top>\n
+..\\common_lib.h(280):           <b>&nbsp;&nbsp;  class tickets for :</b><br>\n
+..\\common_lib.h(280):           <center><table border=0 width=85%><tr><td>\n
+..\\common_lib.h(280):     </i>\n
+..\\common_lib.h(280):           </td></tr></table></center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+..\\common_lib.h(280):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+..\\common_lib.h(280):           <center>\n
+..\\common_lib.h(280):           <Table width=80% cellspacing=0 > <tr> <td>\n
+..\\common_lib.h(280):                <br>\n
+..\\common_lib.h(280):               <br>\n
+..\\common_lib.h(280):               <br>\n
+..\\common_lib.h(280):               <br>\n
+..\\common_lib.h(280):               Total Charge: $ 0 <BR> (CC: x-)\n
+..\\common_lib.h(280):           </td> </tr> </table>\n
+..\\common_lib.h(280):           </center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD COLSPAN=3>\n
+..\\common_lib.h(280):       <b>Flight Details:</b><BR>  <center>\n
+..\\common_lib.h(280):        :  8am : Flight  leaves Denver  for Denver.<br>  </center>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <TR bgcolor=#EFF2F7>\n
+..\\common_lib.h(280):       <TD COLSPAN=4>\n
+..\\common_lib.h(280):       <hr>\n
+..\\common_lib.h(280):       </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     <TR>\n
+..\\common_lib.h(280):        <TD align=center COLSPAN=4>\n
+..\\common_lib.h(280):        <b>A total of 7 scheduled flights.</font></b>\n
+..\\common_lib.h(280):        </TD>\n
+..\\common_lib.h(280):     </TR>\n
+..\\common_lib.h(280):     </TABLE>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <TABLE WIDTH=87% BORDER=0 CELLSPACING=0>\n
+..\\common_lib.h(280):     <TR>\n
+..\\common_lib.h(280):     <TD align=left width=50% >\n
+..\\common_lib.h(280):     <input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" bord
+..\\common_lib.h(280):     er="0" /></TD>\n
+..\\common_lib.h(280):     <TD align=right width=50% >\n
+..\\common_lib.h(280):     <input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gi
+..\\common_lib.h(280):     f" border="0" /></TD>\n
+..\\common_lib.h(280):     </TABLE>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     <div><input type="hidden" name=".cgifields" value="6"  /><input type="hidden" name=".cgifi
+..\\common_lib.h(280):     elds" value="4"  /><input type="hidden" name=".cgifields" value="1"  /><input type="hidden
+..\\common_lib.h(280):     " name=".cgifields" value="3"  /><input type="hidden" name=".cgifields" value="7"  /><inpu
+..\\common_lib.h(280):     t type="hidden" name=".cgifields" value="2"  /><input type="hidden" name=".cgifields" valu
+..\\common_lib.h(280):     e="5"  /></div></form>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     </center>\n
+..\\common_lib.h(280):     \n
+..\\common_lib.h(280):     </body>\n
+..\\common_lib.h(280):     </html>
+..\\common_lib.h(280): Resource "http://localhost:8090/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(280): Resource "http://localhost:8090/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(280): t=244601ms: Request done "http://localhost:8090/WebTours/itinerary.pl"  	[MsgId: MMSG-26000]
+..\\common_lib.h(280): Registered web_reg_find successful for "Text="flightID" value=0-0-t"  	[MsgId: MMSG-26362]
+..\\common_lib.h(280): web_submit_form("itinerary.pl") was successful, 9086 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(288): Notify: Transaction "deleteFirst" ended with a "Pass" status (Duration: 0,2182 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+..\\common_lib.h(41): Notify: Transaction "logout" started.	[MsgId: MMSG-16999]
+..\\common_lib.h(43): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(43): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+..\\common_lib.h(43): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\common_lib.h(43): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\common_lib.h(46): lr_think_time: 14,00 seconds.	[MsgId: MMSG-15948]
+..\\common_lib.h(48): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(48): t=248808ms: Already connected [0] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(48): t=248808ms: 592-byte request headers for "http://localhost:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=133)
+..\\common_lib.h(48):     GET /WebTours/welcome.pl?signOff=1 HTTP/1.1\r\n
+..\\common_lib.h(48):     Referer: http://localhost:8090/WebTours/nav.pl?page=menu&in=flights\r\n
+..\\common_lib.h(48):     Upgrade-Insecure-Requests: 1\r\n
+..\\common_lib.h(48):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(48):     .0\r\n
+..\\common_lib.h(48):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(48):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(48):     Accept: */*\r\n
+..\\common_lib.h(48):     Connection: Keep-Alive\r\n
+..\\common_lib.h(48):     Host: localhost:8090\r\n
+..\\common_lib.h(48):     Cookie: MSO=SID&1665673964&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+..\\common_lib.h(48):     MTUserInfo=firstName&hxskMNpI&address2&IcIORKVt&username&lKnqOzVs&hash&51&lastName&VcjYOKW
+..\\common_lib.h(48):     j%0A&address1&IcIORKVt&creditCard&&expDate&%0A\r\n
+..\\common_lib.h(48):     \r\n
+..\\common_lib.h(48): t=249061ms: 386-byte response headers for "http://localhost:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=133)
+..\\common_lib.h(48):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(48):     Server: Xitami\r\n
+..\\common_lib.h(48):     Date: Thu, 13 Oct 2022 15:13:18 GMT\r\n
+..\\common_lib.h(48):     Cache-control: no-cache\r\n
+..\\common_lib.h(48):     Expires: 0\r\n
+..\\common_lib.h(48):     Content-length: 630\r\n
+..\\common_lib.h(48):     Content-type: text/html; charset=ISO-8859-1\r\n
+..\\common_lib.h(48):     Date: Thu, 13 Oct 2022 15:13:18 GMT\r\n
+..\\common_lib.h(48):     Set-cookie: MTUserInfo=; path=/; expires=Wed, 12-Oct-2022 15:13:18 GMT\r\n
+..\\common_lib.h(48):     Set-cookie: MSO=SID&1665673998&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&
+..\\common_lib.h(48):     50; path=/\r\n
+..\\common_lib.h(48):     \r\n
+..\\common_lib.h(48): t=249062ms: 630-byte response body for "http://localhost:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=133)
+..\\common_lib.h(48):     <!-- \n
+..\\common_lib.h(48):      A Session ID has been created and loaded into a cookie called MSO.\n
+..\\common_lib.h(48):      Also, the server options have been loaded into the cookie called\n
+..\\common_lib.h(48):      MSO as well.  The server options can be set via the Admin page.\n
+..\\common_lib.h(48):      --->\n
+..\\common_lib.h(48):     \n
+..\\common_lib.h(48):     <html>\n
+..\\common_lib.h(48):     <title>Web Tours</title>\n
+..\\common_lib.h(48):        <!-- Frame Set -->\n
+..\\common_lib.h(48):        <frameset cols="160,*" border=1 frameborder=1>\n
+..\\common_lib.h(48):           <!-- Navigation Frame -->\n
+..\\common_lib.h(48):           <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 \n
+..\\common_lib.h(48):                 noresize scrolling=auto>\n
+..\\common_lib.h(48):           <!-- Home Frame -->\n
+..\\common_lib.h(48):           <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 \n
+..\\common_lib.h(48):                 noresize scrolling=auto>\n
+..\\common_lib.h(48):        </frameset>\n
+..\\common_lib.h(48):     \n
+..\\common_lib.h(48):     </body>\n
+..\\common_lib.h(48):     </html>
+..\\common_lib.h(48): Detected non-resource "http://localhost:8090/WebTours/nav.pl?in=home" in "http://localhost:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\common_lib.h(48): Detected non-resource "http://localhost:8090/WebTours/home.html" in "http://localhost:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\common_lib.h(48): Retrieving data from cache for "http://localhost:8090/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\common_lib.h(48): t=249062ms: 1322-byte response body retrieved from cache for "http://localhost:8090/WebTours/home.html" (RelFrameId=1.2, Internal ID=135)
+..\\common_lib.h(48):     <HTML>\n
+..\\common_lib.h(48):     <HEAD>\n
+..\\common_lib.h(48):     \t<title>Web Tours</title>\n
+..\\common_lib.h(48):     </head>\n
+..\\common_lib.h(48):     <style>\n
+..\\common_lib.h(48):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\common_lib.h(48):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+..\\common_lib.h(48):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\common_lib.h(48):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\common_lib.h(48):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\common_lib.h(48):     N: none}\n
+..\\common_lib.h(48):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\common_lib.h(48):     CORATION: underline}\n
+..\\common_lib.h(48):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\common_lib.h(48):     </style>\n
+..\\common_lib.h(48):     <body bgcolor=#e0e7f1>\n
+..\\common_lib.h(48):     <BR>\n
+..\\common_lib.h(48):     <BR>\n
+..\\common_lib.h(48):     <BR>\n
+..\\common_lib.h(48):     <br >\n
+..\\common_lib.h(48):     <table border=0>\n
+..\\common_lib.h(48):     <tr><td></td></tr>\n
+..\\common_lib.h(48):     <TR><TD></TD></TR>\n
+..\\common_lib.h(48):     <TR><TD>\n
+..\\common_lib.h(48):     <blockquote>\n
+..\\common_lib.h(48):     <H1><b>Web Tours</b></H1>\n
+..\\common_lib.h(48):     Welcome to the Web Tours site.\n
+..\\common_lib.h(48):     <br>\n
+..\\common_lib.h(48):     To make reservations,please enter your account information to the left.\n
+..\\common_lib.h(48):     <br>\n
+..\\common_lib.h(48):     If you haven't registered yet, <A href="login.pl?username=&amp;password=&amp;getInfo=true"
+..\\common_lib.h(48):      ><B>sign up now</B></A> to get access to all our resources.\n
+..\\common_lib.h(48):     <br>\n
+..\\common_lib.h(48):     To configure the server options, use <A href="admin.pl" target=body ><b>administration</b>
+..\\common_lib.h(48):     </A> link.\n
+..\\common_lib.h(48):     <br><br><br><br><br><br>\n
+..\\common_lib.h(48):     <br><small>\n
+..\\common_lib.h(48):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+..\\common_lib.h(48):     x.com" target=new><B><small>iMatix Corporation</small></B></A> \n
+..\\common_lib.h(48):     </small>\n
+..\\common_lib.h(48):     </blockquote></TD>\n
+..\\common_lib.h(48):     <TD></TD></TR>\n
+..\\common_lib.h(48):     </table>\n
+..\\common_lib.h(48):     </body>\n
+..\\common_lib.h(48):     </html>\n
+..\\common_lib.h(48): t=249063ms: Request done "http://localhost:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+..\\common_lib.h(48): t=249063ms: Already connected [1] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(48): t=249063ms: 441-byte request headers for "http://localhost:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=134)
+..\\common_lib.h(48):     GET /WebTours/nav.pl?in=home HTTP/1.1\r\n
+..\\common_lib.h(48):     Referer: http://localhost:8090/WebTours/welcome.pl?signOff=1\r\n
+..\\common_lib.h(48):     Upgrade-Insecure-Requests: 1\r\n
+..\\common_lib.h(48):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(48):     .0\r\n
+..\\common_lib.h(48):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(48):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(48):     Accept: */*\r\n
+..\\common_lib.h(48):     Connection: Keep-Alive\r\n
+..\\common_lib.h(48):     Host: localhost:8090\r\n
+..\\common_lib.h(48):     Cookie: MSO=SID&1665673998&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+..\\common_lib.h(48):     \n
+..\\common_lib.h(48):     \r\n
+..\\common_lib.h(48): t=249267ms: 253-byte response headers for "http://localhost:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=134)
+..\\common_lib.h(48):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(48):     Server: Xitami\r\n
+..\\common_lib.h(48):     Date: Thu, 13 Oct 2022 15:13:19 GMT\r\n
+..\\common_lib.h(48):     Cache-control: no-cache\r\n
+..\\common_lib.h(48):     Expires: 0\r\n
+..\\common_lib.h(48):     Content-length: 2742\r\n
+..\\common_lib.h(48):     Content-type: text/html; charset=ISO-8859-1\r\n
+..\\common_lib.h(48):     Date: Thu, 13 Oct 2022 15:13:18 GMT\r\n
+..\\common_lib.h(48):     Expires: Wed, 12 Oct 2022 15:13:18 GMT\r\n
+..\\common_lib.h(48):     \r\n
+..\\common_lib.h(48): t=249267ms: 2742-byte response body for "http://localhost:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=134)
+..\\common_lib.h(48):     <!-- Comments option is ON \n
+..\\common_lib.h(48):     \n
+..\\common_lib.h(48):     These are used to make the automated parsing difficult.\n
+..\\common_lib.h(48):     User must try and get the UserSession value.  There are several here, with similar boundar
+..\\common_lib.h(48):     ies.\n
+..\\common_lib.h(48):     But none are the right value.\n
+..\\common_lib.h(48):     \n
+..\\common_lib.h(48):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n
+..\\common_lib.h(48):     <HTML><HEAD><TITLE>Web Tours Navigation Bar</TITLE>\n
+..\\common_lib.h(48):     <style>\n
+..\\common_lib.h(48):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\common_lib.h(48):     \tH1 {font-family: tahoma; font-size : 22pt;color: #993333}\n
+..\\common_lib.h(48):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\common_lib.h(48):     </style>\n
+..\\common_lib.h(48):     </HEAD><BODY BGCOLOR="#E0E7F1"><br clear>\n
+..\\common_lib.h(48):     <form method=post action=login.pl target=body>\n
+..\\common_lib.h(48):     <input type=hidden name=userSession value=2377134927.014823815zQtADAipDcftVztVpitQQf>\n
+..\\common_lib.h(48):     <form method=post action=error.pl onSubmit='doJSformSubmit1(this)' target=body>\n
+..\\common_lib.h(48):     <input type=hidden name=userSession value=1134927.014823815zQtADAipDcftVztVpitQQf>\n
+..\\common_lib.h(48):     <table border=0>\n
+..\\common_lib.h(48):     <tr><td><font face=sans-serif size=2>&nbsp;</font><td><tr>\n
+..\\common_lib.h(48):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Username</b></font><td><tr>\n
+..\\common_lib.h(48):     <tr><td><input type=text name=username value='' size=18 maxlength=30>\n
+..\\common_lib.h(48):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Password</b></font>\n
+..\\common_lib.h(48):     <tr><td><input type=password name=password value='' size=18 maxlength=30>\n
+..\\common_lib.h(48):     <tr><td><input type=image name=login value=Login alt=Login border=1 src='/WebTours/images/
+..\\common_lib.h(48):     mer_login.gif'>\n
+..\\common_lib.h(48):     </table></form>\n
+..\\common_lib.h(48):     </BODY></HTML>\n
+..\\common_lib.h(48):     -->\n
+..\\common_lib.h(48):     <!DOCTYPE html\n
+..\\common_lib.h(48):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\common_lib.h(48):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\common_lib.h(48):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\common_lib.h(48):     <head>\n
+..\\common_lib.h(48):     <title>Web Tours Navigation Bar</title>\n
+..\\common_lib.h(48):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\common_lib.h(48):     </head>\n
+..\\common_lib.h(48):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+..\\common_lib.h(48):     <style>\n
+..\\common_lib.h(48):     blockquote {font-family: tahoma; font-size : 10pt}\n
+..\\common_lib.h(48):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\common_lib.h(48):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\common_lib.h(48):     small {font-family: tahoma; font-size : 8pt}\n
+..\\common_lib.h(48):     </style>\n
+..\\common_lib.h(48):     <form method=post action=login.pl target=body>\n
+..\\common_lib.h(48):     <input type=hidden name=userSession value=134927.014823815zQtADAipDcftVztVpitQQf>\n
+..\\common_lib.h(48):     <table border=0><tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td>&nbsp;</td>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td>&nbsp;</td></tr>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td><small>&nbsp;Username</small></td></tr>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td><input type=text name=username value='' size=14 maxlength=14></td></tr>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td><small>&nbsp;Password</small></td>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td><input type=password name=password value='' size=14 maxlength=14></td></tr>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td>&nbsp;<tr><td>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td><input type=image name=login value=Login alt=Login border=1 \n
+..\\common_lib.h(48):     src='/WebTours/images/mer_login.gif'>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     </table><input type=hidden name=JSFormSubmit value='off'>\n
+..\\common_lib.h(48):     </form>\n
+..\\common_lib.h(48):     \n
+..\\common_lib.h(48):     </body>\n
+..\\common_lib.h(48):     </html>\n
+..\\common_lib.h(48): Resource "http://localhost:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(48): Resource "http://localhost:8090/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(48): t=249269ms: Request done "http://localhost:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26000]
+..\\common_lib.h(48): web_url("SignOff Button") was successful, 3372 body bytes, 639 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(58): Notify: Transaction "logout" ended with a "Pass" status (Duration: 14,4696 Think Time: 14,0086).	[MsgId: MMSG-16872]
+Action.c(16): Notify: Transaction "UC_2_DeleteFlight" ended with a "Pass" status (Duration: 34,2170 Think Time: 32,0221 Wasted Time: 0,0008).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=249269ms: Closed connection [0] to localhost:8090 after completing 9 request(s)  	[MsgId: MMSG-26000]
+t=249269ms: Closed connection [1] to localhost:8090 after completing 6 request(s)  	[MsgId: MMSG-26000]
+t=249269ms: Closed connection [2] to localhost:8090 after completing 5 request(s)  	[MsgId: MMSG-26000]
+t=249269ms: Closed connection [3] to localhost:8090 after completing 3 request(s)  	[MsgId: MMSG-26000]
+t=249269ms: Closed connection [4] to localhost:8090 after completing 3 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=8, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 1 (thread 15036), ended OK."	[MsgId: MMSG-10695]
+..\\common_lib.h(48): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(48): t=258605ms: Already connected [0] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(48): t=258605ms: 593-byte request headers for "http://localhost:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=79)
+..\\common_lib.h(48):     GET /WebTours/welcome.pl?signOff=1 HTTP/1.1\r\n
+..\\common_lib.h(48):     Referer: http://localhost:8090/WebTours/nav.pl?page=menu&in=flights\r\n
+..\\common_lib.h(48):     Upgrade-Insecure-Requests: 1\r\n
+..\\common_lib.h(48):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(48):     .0\r\n
+..\\common_lib.h(48):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(48):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(48):     Accept: */*\r\n
+..\\common_lib.h(48):     Connection: Keep-Alive\r\n
+..\\common_lib.h(48):     Host: localhost:8090\r\n
+..\\common_lib.h(48):     Cookie: MSO=SID&1665673974&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+..\\common_lib.h(48):     MTUserInfo=firstName&wGchGFxj&address2&teWIBJkC&username&sWBHELYH&hash&104&lastName&DJxKwy
+..\\common_lib.h(48):     pg%0A&address1&teWIBJkC&creditCard&&expDate&%0A\r\n
+..\\common_lib.h(48):     \r\n
+..\\common_lib.h(48): t=259017ms: 386-byte response headers for "http://localhost:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=79)
+..\\common_lib.h(48):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(48):     Server: Xitami\r\n
+..\\common_lib.h(48):     Date: Thu, 13 Oct 2022 15:13:28 GMT\r\n
+..\\common_lib.h(48):     Cache-control: no-cache\r\n
+..\\common_lib.h(48):     Expires: 0\r\n
+..\\common_lib.h(48):     Content-length: 630\r\n
+..\\common_lib.h(48):     Content-type: text/html; charset=ISO-8859-1\r\n
+..\\common_lib.h(48):     Date: Thu, 13 Oct 2022 15:13:28 GMT\r\n
+..\\common_lib.h(48):     Set-cookie: MTUserInfo=; path=/; expires=Wed, 12-Oct-2022 15:13:28 GMT\r\n
+..\\common_lib.h(48):     Set-cookie: MSO=SID&1665674008&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&
+..\\common_lib.h(48):     50; path=/\r\n
+..\\common_lib.h(48):     \r\n
+..\\common_lib.h(48): t=259018ms: 630-byte response body for "http://localhost:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=79)
+..\\common_lib.h(48):     <!-- \n
+..\\common_lib.h(48):      A Session ID has been created and loaded into a cookie called MSO.\n
+..\\common_lib.h(48):      Also, the server options have been loaded into the cookie called\n
+..\\common_lib.h(48):      MSO as well.  The server options can be set via the Admin page.\n
+..\\common_lib.h(48):      --->\n
+..\\common_lib.h(48):     \n
+..\\common_lib.h(48):     <html>\n
+..\\common_lib.h(48):     <title>Web Tours</title>\n
+..\\common_lib.h(48):        <!-- Frame Set -->\n
+..\\common_lib.h(48):        <frameset cols="160,*" border=1 frameborder=1>\n
+..\\common_lib.h(48):           <!-- Navigation Frame -->\n
+..\\common_lib.h(48):           <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 \n
+..\\common_lib.h(48):                 noresize scrolling=auto>\n
+..\\common_lib.h(48):           <!-- Home Frame -->\n
+..\\common_lib.h(48):           <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 \n
+..\\common_lib.h(48):                 noresize scrolling=auto>\n
+..\\common_lib.h(48):        </frameset>\n
+..\\common_lib.h(48):     \n
+..\\common_lib.h(48):     </body>\n
+..\\common_lib.h(48):     </html>
+..\\common_lib.h(48): Detected non-resource "http://localhost:8090/WebTours/nav.pl?in=home" in "http://localhost:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\common_lib.h(48): Detected non-resource "http://localhost:8090/WebTours/home.html" in "http://localhost:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\common_lib.h(48): Retrieving data from cache for "http://localhost:8090/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\common_lib.h(48): t=259018ms: 1322-byte response body retrieved from cache for "http://localhost:8090/WebTours/home.html" (RelFrameId=1.2, Internal ID=81)
+..\\common_lib.h(48):     <HTML>\n
+..\\common_lib.h(48):     <HEAD>\n
+..\\common_lib.h(48):     \t<title>Web Tours</title>\n
+..\\common_lib.h(48):     </head>\n
+..\\common_lib.h(48):     <style>\n
+..\\common_lib.h(48):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\common_lib.h(48):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+..\\common_lib.h(48):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\common_lib.h(48):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\common_lib.h(48):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\common_lib.h(48):     N: none}\n
+..\\common_lib.h(48):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\common_lib.h(48):     CORATION: underline}\n
+..\\common_lib.h(48):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\common_lib.h(48):     </style>\n
+..\\common_lib.h(48):     <body bgcolor=#e0e7f1>\n
+..\\common_lib.h(48):     <BR>\n
+..\\common_lib.h(48):     <BR>\n
+..\\common_lib.h(48):     <BR>\n
+..\\common_lib.h(48):     <br >\n
+..\\common_lib.h(48):     <table border=0>\n
+..\\common_lib.h(48):     <tr><td></td></tr>\n
+..\\common_lib.h(48):     <TR><TD></TD></TR>\n
+..\\common_lib.h(48):     <TR><TD>\n
+..\\common_lib.h(48):     <blockquote>\n
+..\\common_lib.h(48):     <H1><b>Web Tours</b></H1>\n
+..\\common_lib.h(48):     Welcome to the Web Tours site.\n
+..\\common_lib.h(48):     <br>\n
+..\\common_lib.h(48):     To make reservations,please enter your account information to the left.\n
+..\\common_lib.h(48):     <br>\n
+..\\common_lib.h(48):     If you haven't registered yet, <A href="login.pl?username=&amp;password=&amp;getInfo=true"
+..\\common_lib.h(48):      ><B>sign up now</B></A> to get access to all our resources.\n
+..\\common_lib.h(48):     <br>\n
+..\\common_lib.h(48):     To configure the server options, use <A href="admin.pl" target=body ><b>administration</b>
+..\\common_lib.h(48):     </A> link.\n
+..\\common_lib.h(48):     <br><br><br><br><br><br>\n
+..\\common_lib.h(48):     <br><small>\n
+..\\common_lib.h(48):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+..\\common_lib.h(48):     x.com" target=new><B><small>iMatix Corporation</small></B></A> \n
+..\\common_lib.h(48):     </small>\n
+..\\common_lib.h(48):     </blockquote></TD>\n
+..\\common_lib.h(48):     <TD></TD></TR>\n
+..\\common_lib.h(48):     </table>\n
+..\\common_lib.h(48):     </body>\n
+..\\common_lib.h(48):     </html>\n
+..\\common_lib.h(48): t=259019ms: Request done "http://localhost:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+..\\common_lib.h(48): t=259019ms: Already connected [1] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(48): t=259019ms: 441-byte request headers for "http://localhost:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=80)
+..\\common_lib.h(48):     GET /WebTours/nav.pl?in=home HTTP/1.1\r\n
+..\\common_lib.h(48):     Referer: http://localhost:8090/WebTours/welcome.pl?signOff=1\r\n
+..\\common_lib.h(48):     Upgrade-Insecure-Requests: 1\r\n
+..\\common_lib.h(48):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(48):     .0\r\n
+..\\common_lib.h(48):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(48):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(48):     Accept: */*\r\n
+..\\common_lib.h(48):     Connection: Keep-Alive\r\n
+..\\common_lib.h(48):     Host: localhost:8090\r\n
+..\\common_lib.h(48):     Cookie: MSO=SID&1665674008&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+..\\common_lib.h(48):     \n
+..\\common_lib.h(48):     \r\n
+..\\common_lib.h(48): t=259220ms: 253-byte response headers for "http://localhost:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=80)
+..\\common_lib.h(48):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(48):     Server: Xitami\r\n
+..\\common_lib.h(48):     Date: Thu, 13 Oct 2022 15:13:28 GMT\r\n
+..\\common_lib.h(48):     Cache-control: no-cache\r\n
+..\\common_lib.h(48):     Expires: 0\r\n
+..\\common_lib.h(48):     Content-length: 2751\r\n
+..\\common_lib.h(48):     Content-type: text/html; charset=ISO-8859-1\r\n
+..\\common_lib.h(48):     Date: Thu, 13 Oct 2022 15:13:28 GMT\r\n
+..\\common_lib.h(48):     Expires: Wed, 12 Oct 2022 15:13:28 GMT\r\n
+..\\common_lib.h(48):     \r\n
+..\\common_lib.h(48): t=259221ms: 2751-byte response body for "http://localhost:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=80)
+..\\common_lib.h(48):     <!-- Comments option is ON \n
+..\\common_lib.h(48):     \n
+..\\common_lib.h(48):     These are used to make the automated parsing difficult.\n
+..\\common_lib.h(48):     User must try and get the UserSession value.  There are several here, with similar boundar
+..\\common_lib.h(48):     ies.\n
+..\\common_lib.h(48):     But none are the right value.\n
+..\\common_lib.h(48):     \n
+..\\common_lib.h(48):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n
+..\\common_lib.h(48):     <HTML><HEAD><TITLE>Web Tours Navigation Bar</TITLE>\n
+..\\common_lib.h(48):     <style>\n
+..\\common_lib.h(48):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\common_lib.h(48):     \tH1 {font-family: tahoma; font-size : 22pt;color: #993333}\n
+..\\common_lib.h(48):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\common_lib.h(48):     </style>\n
+..\\common_lib.h(48):     </HEAD><BODY BGCOLOR="#E0E7F1"><br clear>\n
+..\\common_lib.h(48):     <form method=post action=login.pl target=body>\n
+..\\common_lib.h(48):     <input type=hidden name=userSession value=8099134927.01563386zQtADAipDzzzzzzHtVztVpifAc>\n
+..\\common_lib.h(48):     <form method=post action=error.pl onSubmit='doJSformSubmit1(this)' target=body>\n
+..\\common_lib.h(48):     <input type=hidden name=userSession value=1134927.01563386zQtADAipDzzzzzzHtVztVpifAc>\n
+..\\common_lib.h(48):     <table border=0>\n
+..\\common_lib.h(48):     <tr><td><font face=sans-serif size=2>&nbsp;</font><td><tr>\n
+..\\common_lib.h(48):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Username</b></font><td><tr>\n
+..\\common_lib.h(48):     <tr><td><input type=text name=username value='' size=18 maxlength=30>\n
+..\\common_lib.h(48):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Password</b></font>\n
+..\\common_lib.h(48):     <tr><td><input type=password name=password value='' size=18 maxlength=30>\n
+..\\common_lib.h(48):     <tr><td><input type=image name=login value=Login alt=Login border=1 src='/WebTours/images/
+..\\common_lib.h(48):     mer_login.gif'>\n
+..\\common_lib.h(48):     </table></form>\n
+..\\common_lib.h(48):     </BODY></HTML>\n
+..\\common_lib.h(48):     -->\n
+..\\common_lib.h(48):     <!DOCTYPE html\n
+..\\common_lib.h(48):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\common_lib.h(48):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\common_lib.h(48):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\common_lib.h(48):     <head>\n
+..\\common_lib.h(48):     <title>Web Tours Navigation Bar</title>\n
+..\\common_lib.h(48):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\common_lib.h(48):     </head>\n
+..\\common_lib.h(48):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+..\\common_lib.h(48):     <style>\n
+..\\common_lib.h(48):     blockquote {font-family: tahoma; font-size : 10pt}\n
+..\\common_lib.h(48):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\common_lib.h(48):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\common_lib.h(48):     small {font-family: tahoma; font-size : 8pt}\n
+..\\common_lib.h(48):     </style>\n
+..\\common_lib.h(48):     <form method=post action=login.pl target=body>\n
+..\\common_lib.h(48):     <input type=hidden name=userSession value=134927.01563386zQtADAipDzzzzzzHtVztVpifAc>\n
+..\\common_lib.h(48):     <table border=0><tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td>&nbsp;</td>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td>&nbsp;</td></tr>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td><small>&nbsp;Username</small></td></tr>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td><input type=text name=username value='' size=14 maxlength=14></td></tr>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td><small>&nbsp;Password</small></td>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td><input type=password name=password value='' size=14 maxlength=14></td></tr>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td>&nbsp;<tr><td>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     <td><input type=image name=login value=Login alt=Login border=1 \n
+..\\common_lib.h(48):     src='/WebTours/images/mer_login.gif'>\n
+..\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(48):     </table><input type=hidden name=JSFormSubmit value='off'>\n
+..\\common_lib.h(48):     </form>\n
+..\\common_lib.h(48):     \n
+..\\common_lib.h(48):     </body>\n
+..\\common_lib.h(48):     </html>\n
+..\\common_lib.h(48): Resource "http://localhost:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(48): Resource "http://localhost:8090/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(48): t=259222ms: Request done "http://localhost:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26000]
+..\\common_lib.h(48): web_url("SignOff Button") was successful, 3381 body bytes, 639 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(58): Notify: Transaction "logout" ended with a "Pass" status (Duration: 14,6213 Think Time: 14,0038).	[MsgId: MMSG-16872]
+Action.c(16): Notify: Transaction "UC_2_DeleteFlight" ended with a "Pass" status (Duration: 34,2372 Think Time: 32,0241 Wasted Time: 0,0008).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=259222ms: Closed connection [0] to localhost:8090 after completing 9 request(s)  	[MsgId: MMSG-26000]
+t=259223ms: Closed connection [1] to localhost:8090 after completing 7 request(s)  	[MsgId: MMSG-26000]
+t=259223ms: Closed connection [2] to localhost:8090 after completing 4 request(s)  	[MsgId: MMSG-26000]
+t=259223ms: Closed connection [3] to localhost:8090 after completing 3 request(s)  	[MsgId: MMSG-26000]
+t=259223ms: Closed connection [4] to localhost:8090 after completing 3 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=8, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 2 (thread 15552), ended OK."	[MsgId: MMSG-10695]

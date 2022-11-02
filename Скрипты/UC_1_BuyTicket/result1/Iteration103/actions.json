@@ -1,0 +1,120 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP817",
+                "stepName": "Url: WebTours",
+                "infFile": "t2.inf",
+                "time": 1666956532953
+            },
+            {
+                "stepId": "STEP818",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1666956533978
+            },
+            {
+                "stepId": "STEP819",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t4.inf",
+                "time": 1666956535192
+            },
+            {
+                "stepId": "STEP820",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t6.inf",
+                "time": 1666956536200
+            },
+            {
+                "stepId": "STEP821",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t7.inf",
+                "time": 1666956537001
+            },
+            {
+                "stepId": "STEP822",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t8.inf",
+                "time": 1666956538032
+            },
+            {
+                "stepId": "STEP823",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t10.inf",
+                "time": 1666956539278
+            },
+            {
+                "stepId": "STEP824",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t11.inf",
+                "time": 1666956540483
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "homePage",
+                "rawStartTime": 1666956531538,
+                "rawEndTime": 1666956532954,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5703043937683106
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1666956532960,
+                "rawEndTime": 1666956533978,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5696709156036377
+            },
+            {
+                "transactionName": "goToFlight",
+                "rawStartTime": 1666956533991,
+                "rawEndTime": 1666956535193,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5663349628448486
+            },
+            {
+                "transactionName": "findFlight",
+                "rawStartTime": 1666956535194,
+                "rawEndTime": 1666956536201,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5654067993164063
+            },
+            {
+                "transactionName": "choose_flight",
+                "rawStartTime": 1666956536210,
+                "rawEndTime": 1666956537002,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5707790851593018
+            },
+            {
+                "transactionName": "paymentDetails",
+                "rawStartTime": 1666956537007,
+                "rawEndTime": 1666956538032,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5786252021789551
+            },
+            {
+                "transactionName": "goToitinerary",
+                "rawStartTime": 1666956538040,
+                "rawEndTime": 1666956539279,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5734539031982422
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1666956539286,
+                "rawEndTime": 1666956540484,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5714735984802246
+            },
+            {
+                "transactionName": "UC_1_BuyTicket",
+                "rawStartTime": 1666956531523,
+                "rawEndTime": 1666956540489,
+                "thinkTime": 0.0,
+                "wastedTime": 4.567346096038818
+            }
+        ]
+    }
+]

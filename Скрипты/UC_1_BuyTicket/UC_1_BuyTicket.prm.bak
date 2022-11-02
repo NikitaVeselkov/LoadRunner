@@ -6,7 +6,7 @@ Type="Host"
 [parameter:city]
 ColumnName="Col 1"
 Delimiter=","
-GenerateNewVal="EachIteration"
+GenerateNewVal="EachOccurrence"
 OriginalValue=""
 OutOfRangePolicy="ContinueWithLast"
 ParamName="city"

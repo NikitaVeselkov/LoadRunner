@@ -1,0 +1,68 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP362",
+                "stepName": "Url: WebTours",
+                "infFile": "t2.inf",
+                "time": 1666955526151
+            },
+            {
+                "stepId": "STEP363",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1666955527250
+            },
+            {
+                "stepId": "STEP364",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t5.inf",
+                "time": 1666955528117
+            },
+            {
+                "stepId": "STEP365",
+                "stepName": "Submit Form: itinerary.pl",
+                "infFile": "t6.inf",
+                "time": 1666955528757
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "homePage",
+                "rawStartTime": 1666955525293,
+                "rawEndTime": 1666955526152,
+                "thinkTime": 0.0,
+                "wastedTime": 0.40393853187561037
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1666955526168,
+                "rawEndTime": 1666955527250,
+                "thinkTime": 0.0,
+                "wastedTime": 0.4165654182434082
+            },
+            {
+                "transactionName": "goToitinerary",
+                "rawStartTime": 1666955527263,
+                "rawEndTime": 1666955528117,
+                "thinkTime": 0.0,
+                "wastedTime": 0.4208714962005615
+            },
+            {
+                "transactionName": "deleteFirst",
+                "rawStartTime": 1666955528124,
+                "rawEndTime": 1666955528757,
+                "thinkTime": 0.0,
+                "wastedTime": 0.4095776081085205
+            },
+            {
+                "transactionName": "UC_2_DeleteFlight",
+                "rawStartTime": 1666955525277,
+                "rawEndTime": 1666955528765,
+                "thinkTime": 0.0,
+                "wastedTime": 1.6522107124328614
+            }
+        ]
+    }
+]

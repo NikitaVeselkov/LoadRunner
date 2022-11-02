@@ -2945,6 +2945,27 @@ registration (){
 	
 	return 0;
 }
+
+regContinue () {
+
+	lr_start_transaction("regContinue");
+
+	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
+
+	web_url("Home Button", 
+		"URL=http://localhost:8090/WebTours/welcome.pl?page=menus", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:8090/WebTours/login.pl", 
+		"Snapshot=t4.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	lr_end_transaction("regContinue",2);
+
+return 0 ;
+}
 # 9 "globals.h" 2
 
 
@@ -2973,6 +2994,8 @@ lr_start_transaction("UC_3_SignUp");
 	goToSignUp();
 	
 	registration();
+	
+	regContinue();
 
 lr_end_transaction("UC_3_SignUp", 2);
 

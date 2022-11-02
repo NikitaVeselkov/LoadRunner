@@ -1,4 +1,4 @@
-Virtual User Script started at: 16.10.2022 13:35:24
+Virtual User Script started at: 16.10.2022 18:38:47
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -25,8 +25,8 @@ Action.c(3): Notify: Transaction "UC_4_Login_Logout" started.
 ..\\common_lib.h(79): Detected non-resource "http://localhost:8090/WebTours/home.html" in "http://localhost:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 ..\\common_lib.h(79): Found resource "http://localhost:8090/WebTours/images/fonJM.png" in HTML "http://localhost:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
 ..\\common_lib.h(79): Found resource "http://localhost:8090/WebTours/images/mer_login.gif" in HTML "http://localhost:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
-..\\common_lib.h(79): web_url("WebTours") was successful, 40145 body bytes, 1955 header bytes  	[MsgId: MMSG-26386]
-..\\common_lib.h(89): Notify: Transaction "homePage" ended with a "Pass" status (Duration: 0.8404 Wasted Time: 0.0951).
+..\\common_lib.h(79): web_url("WebTours") was successful, 40118 body bytes, 1955 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(89): Notify: Transaction "homePage" ended with a "Pass" status (Duration: 0.6672 Wasted Time: 0.0998).
 ..\\common_lib.h(3): Notify: Transaction "login" started.
 ..\\common_lib.h(5): web_set_sockets_option started  	[MsgId: MMSG-26355]
 ..\\common_lib.h(5): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
@@ -35,6 +35,8 @@ Action.c(3): Notify: Transaction "UC_4_Login_Logout" started.
 ..\\common_lib.h(7): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
 ..\\common_lib.h(9): web_add_header("Origin") started  	[MsgId: MMSG-26355]
 ..\\common_lib.h(9): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\common_lib.h(12): Think time - Waiting 5.00 seconds (according to limit).
+..\\common_lib.h(12): lr_think_time: 5.00 seconds (recorded think time was 7.00 seconds).
 ..\\common_lib.h(14): web_reg_find started  	[MsgId: MMSG-26355]
 ..\\common_lib.h(14): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 ..\\common_lib.h(17): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
@@ -45,21 +47,23 @@ Action.c(3): Notify: Transaction "UC_4_Login_Logout" started.
 ..\\common_lib.h(17): Found resource "http://localhost:8090/WebTours/images/itinerary.gif" in HTML "http://localhost:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 ..\\common_lib.h(17): Resource "http://localhost:8090/WebTours/images/in_home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ..\\common_lib.h(17): Found resource "http://localhost:8090/WebTours/images/signoff.gif" in HTML "http://localhost:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-..\\common_lib.h(17): Registered web_reg_find successful for "Text=Welcome, <b>UaJyNVEK</b>" (count=1)  	[MsgId: MMSG-26364]
-..\\common_lib.h(17): web_submit_data("login.pl") was successful, 5039 body bytes, 1354 header bytes  	[MsgId: MMSG-26386]
-..\\common_lib.h(35): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,4651 Wasted Time: 0,0049).
+..\\common_lib.h(17): Registered web_reg_find successful for "Text=Welcome, <b>vdSXYLXY</b>" (count=1)  	[MsgId: MMSG-26364]
+..\\common_lib.h(17): web_submit_data("login.pl") was successful, 5039 body bytes, 1353 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(35): Notify: Transaction "login" ended with a "Pass" status (Duration: 5.4638 Think Time: 5.0073 Wasted Time: 0.0048).
 ..\\common_lib.h(41): Notify: Transaction "logout" started.
 ..\\common_lib.h(43): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
 ..\\common_lib.h(43): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\common_lib.h(46): Think time - Waiting 5.00 seconds (according to limit).
+..\\common_lib.h(46): lr_think_time: 5.00 seconds (recorded think time was 14.00 seconds).
 ..\\common_lib.h(48): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
 ..\\common_lib.h(48): Detected non-resource "http://localhost:8090/WebTours/nav.pl?in=home" in "http://localhost:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
 ..\\common_lib.h(48): Detected non-resource "http://localhost:8090/WebTours/home.html" in "http://localhost:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
 ..\\common_lib.h(48): Retrieving data from cache for "http://localhost:8090/WebTours/home.html"  	[MsgId: MMSG-26558]
 ..\\common_lib.h(48): Resource "http://localhost:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ..\\common_lib.h(48): Resource "http://localhost:8090/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-..\\common_lib.h(48): web_url("SignOff Button") was successful, 3386 body bytes, 639 header bytes  	[MsgId: MMSG-26386]
-..\\common_lib.h(58): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0.8325 Wasted Time: 0.0041).
-Action.c(11): Notify: Transaction "UC_4_Login_Logout" ended with a "Pass" status (Duration: 2.2414 Wasted Time: 0.1041).
+..\\common_lib.h(48): web_url("SignOff Button") was successful, 3390 body bytes, 639 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(58): Notify: Transaction "logout" ended with a "Pass" status (Duration: 5,4268 Think Time: 5,0042 Wasted Time: 0,0040).
+Action.c(11): Notify: Transaction "UC_4_Login_Logout" ended with a "Pass" status (Duration: 11,6399 Think Time: 10,0115 Wasted Time: 0,1086).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

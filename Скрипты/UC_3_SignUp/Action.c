@@ -9,6 +9,8 @@ lr_start_transaction("UC_3_SignUp");
 	goToSignUp();
 	
 	registration();
+	
+	regContinue();
 
 lr_end_transaction("UC_3_SignUp", LR_AUTO);
 

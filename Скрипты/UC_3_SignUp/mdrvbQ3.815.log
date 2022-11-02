@@ -1,0 +1,867 @@
+..\\common_lib.h(79):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(79):     <td><input type=image name=login value=Login alt=Login border=1 \n
+..\\common_lib.h(79):     src='/WebTours/images/mer_login.gif'>\n
+..\\common_lib.h(79):     <tr><td>&nbsp;</td>\n
+..\\common_lib.h(79):     </table><input type=hidden name=JSFormSubmit value='off'>\n
+..\\common_lib.h(79):     </form>\n
+..\\common_lib.h(79):     \n
+..\\common_lib.h(79):     </body>\n
+..\\common_lib.h(79):     </html>\n
+..\\common_lib.h(79): Found resource "http://localhost:8090/WebTours/images/fonJM.png" in HTML "http://localhost:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\common_lib.h(79): Found resource "http://localhost:8090/WebTours/images/mer_login.gif" in HTML "http://localhost:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\common_lib.h(79): t=1392742ms: Request done "http://localhost:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26000]
+..\\common_lib.h(79): Notify: Saving Parameter "userSession = 135028.982584042zQtfffDpcQVzzzzHtVzHDpDVQHf".	[MsgId: MMSG-13798]
+..\\common_lib.h(79): t=1392743ms: Already connected [1] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(79): t=1392743ms: 437-byte request headers for "http://localhost:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=369)
+..\\common_lib.h(79):     GET /WebTours/images/fonJM.png HTTP/1.1\r\n
+..\\common_lib.h(79):     Referer: http://localhost:8090/WebTours/nav.pl?in=home\r\n
+..\\common_lib.h(79):     Upgrade-Insecure-Requests: 1\r\n
+..\\common_lib.h(79):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(79):     .0\r\n
+..\\common_lib.h(79):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(79):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(79):     Accept: */*\r\n
+..\\common_lib.h(79):     Connection: Keep-Alive\r\n
+..\\common_lib.h(79):     Host: localhost:8090\r\n
+..\\common_lib.h(79):     Cookie: MSO=SID&1666932790&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+..\\common_lib.h(79):     \n
+..\\common_lib.h(79):     \r\n
+..\\common_lib.h(79): t=1392743ms: Already connected [2] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(79): t=1392743ms: 441-byte request headers for "http://localhost:8090/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=370)
+..\\common_lib.h(79):     GET /WebTours/images/mer_login.gif HTTP/1.1\r\n
+..\\common_lib.h(79):     Referer: http://localhost:8090/WebTours/nav.pl?in=home\r\n
+..\\common_lib.h(79):     Upgrade-Insecure-Requests: 1\r\n
+..\\common_lib.h(79):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(79):     .0\r\n
+..\\common_lib.h(79):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(79):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(79):     Accept: */*\r\n
+..\\common_lib.h(79):     Connection: Keep-Alive\r\n
+..\\common_lib.h(79):     Host: localhost:8090\r\n
+..\\common_lib.h(79):     Cookie: MSO=SID&1666932790&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+..\\common_lib.h(79):     \n
+..\\common_lib.h(79):     \r\n
+..\\common_lib.h(79): t=1392744ms: 166-byte response headers for "http://localhost:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=369)
+..\\common_lib.h(79):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(79):     Server: Xitami\r\n
+..\\common_lib.h(79):     Date: Fri, 28 Oct 2022 04:53:10 GMT\r\n
+..\\common_lib.h(79):     Content-type: image/png\r\n
+..\\common_lib.h(79):     Content-length: 29614\r\n
+..\\common_lib.h(79):     Last-modified: Tue, 28 Feb 2017 19:34:13 GMT\r\n
+..\\common_lib.h(79):     \r\n
+..\\common_lib.h(79): t=1392745ms: 164-byte response headers for "http://localhost:8090/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=370)
+..\\common_lib.h(79):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(79):     Server: Xitami\r\n
+..\\common_lib.h(79):     Date: Fri, 28 Oct 2022 04:53:10 GMT\r\n
+..\\common_lib.h(79):     Content-type: image/gif\r\n
+..\\common_lib.h(79):     Content-length: 679\r\n
+..\\common_lib.h(79):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+..\\common_lib.h(79):     \r\n
+..\\common_lib.h(79): t=1392745ms: 679-byte response body for "http://localhost:8090/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=370)
+..\\common_lib.h(79): t=1392745ms: Request done "http://localhost:8090/WebTours/images/mer_login.gif"  	[MsgId: MMSG-26000]
+..\\common_lib.h(79): t=1392745ms: 12287-byte response body for "http://localhost:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=369)
+..\\common_lib.h(79): t=1392745ms: 12287-byte response body for "http://localhost:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=369)
+..\\common_lib.h(79): t=1392745ms: 5040-byte response body for "http://localhost:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=369)
+..\\common_lib.h(79): t=1392745ms: Request done "http://localhost:8090/WebTours/images/fonJM.png"  	[MsgId: MMSG-26000]
+..\\common_lib.h(79): web_url("WebTours") was successful, 40142 body bytes, 1955 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(89): Notify: Transaction "homePage" ended with a "Pass" status (Duration: 0,4462 Wasted Time: 0,0004).	[MsgId: MMSG-16871]
+..\\common_lib.h(310): Notify: Transaction "goToSignUp" started.	[MsgId: MMSG-16999]
+..\\common_lib.h(312): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(312): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+..\\common_lib.h(312): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\common_lib.h(314): Think time - Waiting 5,00 seconds (according to limit).	[MsgId: MMSG-15946]
+..\\common_lib.h(314): lr_think_time: 5,00 seconds (recorded think time was 12,00 seconds).	[MsgId: MMSG-15947]
+..\\common_lib.h(316): web_url("sign up now") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(316): t=1397750ms: Already connected [0] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(316): t=1397750ms: 427-byte request headers for "http://localhost:8090/WebTours/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=371)
+..\\common_lib.h(316):     GET /WebTours/login.pl?username=&password=&getInfo=true HTTP/1.1\r\n
+..\\common_lib.h(316):     Referer: http://localhost:8090/WebTours/home.html\r\n
+..\\common_lib.h(316):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(316):     .0\r\n
+..\\common_lib.h(316):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(316):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(316):     Accept: */*\r\n
+..\\common_lib.h(316):     Connection: Keep-Alive\r\n
+..\\common_lib.h(316):     Host: localhost:8090\r\n
+..\\common_lib.h(316):     Cookie: MSO=SID&1666932790&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     \r\n
+..\\common_lib.h(316): t=1397959ms: 226-byte response headers for "http://localhost:8090/WebTours/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=371)
+..\\common_lib.h(316):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(316):     Server: Xitami\r\n
+..\\common_lib.h(316):     Date: Fri, 28 Oct 2022 04:53:16 GMT\r\n
+..\\common_lib.h(316):     Cache-control: no-cache\r\n
+..\\common_lib.h(316):     Expires: 0\r\n
+..\\common_lib.h(316):     Content-length: 2424\r\n
+..\\common_lib.h(316):     Content-type: text/html; charset=ISO-8859-1\r\n
+..\\common_lib.h(316):     Date: Fri, 28 Oct 2022 04:53:15 GMT\r\n
+..\\common_lib.h(316):     Expires: 5s\r\n
+..\\common_lib.h(316):     \r\n
+..\\common_lib.h(316): t=1397959ms: 2424-byte response body for "http://localhost:8090/WebTours/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=371)
+..\\common_lib.h(316):     <!DOCTYPE html\n
+..\\common_lib.h(316):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\common_lib.h(316):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\common_lib.h(316):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\common_lib.h(316):     <head>\n
+..\\common_lib.h(316):     <title>User Information</title>\n
+..\\common_lib.h(316):     <script src="/WebTours/profileValidate.js" type="text/JavaScript"></script>\n
+..\\common_lib.h(316):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\common_lib.h(316):     </head>\n
+..\\common_lib.h(316):     <body bgcolor="#E0E7F1">\n
+..\\common_lib.h(316):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+..\\common_lib.h(316):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+..\\common_lib.h(316):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+..\\common_lib.h(316):     }</style><BR><center><H1><b><font color=#003366>Customer Profile</font></b></H1></center><
+..\\common_lib.h(316):     blockquote><tr><td><B>First time registering? Please complete the form below.</B><BR>Pleas
+..\\common_lib.h(316):     e choose a username and password combination for your account.<BR>We'd also like some addi
+..\\common_lib.h(316):     tional contact information for yourself. We'll use it as default shipping and billing info
+..\\common_lib.h(316):     rmation when making all your travel arrangements.<P><tr><td align=center><form method="pos
+..\\common_lib.h(316):     t" action="login.pl" enctype="application/x-www-form-urlencoded" target="info" onsubmit>\n
+..\\common_lib.h(316):     <table><tr><td align="left"><blockquote>Username : </td> <td align="left"><input type="tex
+..\\common_lib.h(316):     t" name="username"  size="20" /></td></tr> <tr><td align="left"><blockquote>Password : </t
+..\\common_lib.h(316):     d> <td align="left"><input type="password" name="password"  size="20" /></td></tr> <tr><td
+..\\common_lib.h(316):      align="left"><blockquote>Confirm : </td> <td align="left"><input type="password" name="pa
+..\\common_lib.h(316):     sswordConfirm"  size="20" /></td></tr> <tr><td> </td></tr> <tr><td align="left"><blockquot
+..\\common_lib.h(316):     e>First Name : </td> <td align="left"><input type="text" name="firstName"  size="20" /></t
+..\\common_lib.h(316):     d></tr> <tr><td align="left"><blockquote>Last Name : </td> <td align="left"><input type="t
+..\\common_lib.h(316):     ext" name="lastName"  size="20" /></td></tr> <tr><td align="left"><blockquote>Street Addre
+..\\common_lib.h(316):     ss : </td> <td align="left"><input type="text" name="address1"  size="30" /></td></tr> <tr
+..\\common_lib.h(316):     ><td align="left"><blockquote>City/State/Zip : </td> <td align="left"><input type="text" n
+..\\common_lib.h(316):     ame="address2"  size="30" /></td></tr> <tr><td align="left">&nbsp;</td> <td align="right">
+..\\common_lib.h(316):     &nbsp;</td></tr> <tr><td align="center" colspan="2"><input type="image" name="register" sr
+..\\common_lib.h(316):     c="/WebTours/images/button_next.gif" border="0" /></td></tr></table></form></table></block
+..\\common_lib.h(316):     quote>\n
+..\\common_lib.h(316):     </body>\n
+..\\common_lib.h(316):     </html>\n
+..\\common_lib.h(316): Found resource "http://localhost:8090/WebTours/profileValidate.js" in HTML "http://localhost:8090/WebTours/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+..\\common_lib.h(316): Found resource "http://localhost:8090/WebTours/images/button_next.gif" in HTML "http://localhost:8090/WebTours/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+..\\common_lib.h(316): t=1397960ms: Request done "http://localhost:8090/WebTours/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26000]
+..\\common_lib.h(316): t=1397960ms: Already connected [1] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(316): t=1397960ms: 436-byte request headers for "http://localhost:8090/WebTours/profileValidate.js" (RelFrameId=, Internal ID=372)
+..\\common_lib.h(316):     GET /WebTours/profileValidate.js HTTP/1.1\r\n
+..\\common_lib.h(316):     Referer: http://localhost:8090/WebTours/login.pl?username=&password=&getInfo=true\r\n
+..\\common_lib.h(316):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(316):     .0\r\n
+..\\common_lib.h(316):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(316):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(316):     Accept: */*\r\n
+..\\common_lib.h(316):     Connection: Keep-Alive\r\n
+..\\common_lib.h(316):     Host: localhost:8090\r\n
+..\\common_lib.h(316):     Cookie: MSO=SID&1666932790&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     \r\n
+..\\common_lib.h(316): t=1397961ms: Already connected [2] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(316): t=1397961ms: 440-byte request headers for "http://localhost:8090/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=373)
+..\\common_lib.h(316):     GET /WebTours/images/button_next.gif HTTP/1.1\r\n
+..\\common_lib.h(316):     Referer: http://localhost:8090/WebTours/login.pl?username=&password=&getInfo=true\r\n
+..\\common_lib.h(316):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(316):     .0\r\n
+..\\common_lib.h(316):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(316):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(316):     Accept: */*\r\n
+..\\common_lib.h(316):     Connection: Keep-Alive\r\n
+..\\common_lib.h(316):     Host: localhost:8090\r\n
+..\\common_lib.h(316):     Cookie: MSO=SID&1666932790&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     \r\n
+..\\common_lib.h(316): t=1397962ms: 181-byte response headers for "http://localhost:8090/WebTours/profileValidate.js" (RelFrameId=, Internal ID=372)
+..\\common_lib.h(316):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(316):     Server: Xitami\r\n
+..\\common_lib.h(316):     Date: Fri, 28 Oct 2022 04:53:16 GMT\r\n
+..\\common_lib.h(316):     Content-type: application/x-javascript\r\n
+..\\common_lib.h(316):     Content-length: 11288\r\n
+..\\common_lib.h(316):     Last-modified: Tue, 26 Oct 2004 12:18:07 GMT\r\n
+..\\common_lib.h(316):     \r\n
+..\\common_lib.h(316): t=1397963ms: 164-byte response headers for "http://localhost:8090/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=373)
+..\\common_lib.h(316):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(316):     Server: Xitami\r\n
+..\\common_lib.h(316):     Date: Fri, 28 Oct 2022 04:53:16 GMT\r\n
+..\\common_lib.h(316):     Content-type: image/gif\r\n
+..\\common_lib.h(316):     Content-length: 758\r\n
+..\\common_lib.h(316):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+..\\common_lib.h(316):     \r\n
+..\\common_lib.h(316): t=1397963ms: 758-byte response body for "http://localhost:8090/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=373)
+..\\common_lib.h(316): t=1397963ms: Request done "http://localhost:8090/WebTours/images/button_next.gif"  	[MsgId: MMSG-26000]
+..\\common_lib.h(316): t=1397963ms: 11288-byte response body for "http://localhost:8090/WebTours/profileValidate.js" (RelFrameId=, Internal ID=372)
+..\\common_lib.h(316):     // check for IE3\n
+..\\common_lib.h(316):     var isIE3 = (navigator.appVersion.indexOf('MSIE 3') != -1);\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     /***************************************************************\n
+..\\common_lib.h(316):     ** define and instantiate validation objects\n
+..\\common_lib.h(316):     ** the validation object accepts the following parameters:\n
+..\\common_lib.h(316):     **\n
+..\\common_lib.h(316):     **   realName: name used in the alerts (same as label on the page)\n
+..\\common_lib.h(316):     **\n
+..\\common_lib.h(316):     **   formEltName: this must be the name of the corresponding\n
+..\\common_lib.h(316):     **       HTML form element; make it the same as the object name\n
+..\\common_lib.h(316):     **\n
+..\\common_lib.h(316):     **   eltType: element type (we have to create this since IE3\n
+..\\common_lib.h(316):     **       doesn't support the type property for for elements)\n
+..\\common_lib.h(316):     **     text\n
+..\\common_lib.h(316):     **     textarea\n
+..\\common_lib.h(316):     **     checkbox\n
+..\\common_lib.h(316):     **     radio\n
+..\\common_lib.h(316):     **     select\n
+..\\common_lib.h(316):     **\n
+..\\common_lib.h(316):     **   uptoSnuff: function call that's evaluated during validation check\n
+..\\common_lib.h(316):     **     isText(str)\n
+..\\common_lib.h(316):     **     isSelect(formObj)\n
+..\\common_lib.h(316):     **     isRadio(formObj)\n
+..\\common_lib.h(316):     **     isCheck(formObj, form, [index of first checkbox in group],\n
+..\\common_lib.h(316):     **         [number of checkboxes])\n
+..\\common_lib.h(316):     **     isEmail(str)\n
+..\\common_lib.h(316):     **     isState(str)\n
+..\\common_lib.h(316):     **     isZipCode(str)\n
+..\\common_lib.h(316):     **     isPhoneNum(str)\n
+..\\common_lib.h(316):     **     isDate(str)\n
+..\\common_lib.h(316):     **\n
+..\\common_lib.h(316):     **   format: text representation of required format;\n
+..\\common_lib.h(316):     **       pass 'null' if no required format;\n
+..\\common_lib.h(316):     **       used in alert as an aid to user\n
+..\\common_lib.h(316):     ***************************************************************/\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     // object definition\n
+..\\common_lib.h(316):     function validation(realName, formEltName, eltType, upToSnuff, format) {\n
+..\\common_lib.h(316):       this.realName = realName;\n
+..\\common_lib.h(316):       this.formEltName = formEltName;\n
+..\\common_lib.h(316):       this.eltType = eltType;\n
+..\\common_lib.h(316):       this.upToSnuff = upToSnuff;\n
+..\\common_lib.h(316):       this.format = format;\n
+..\\common_lib.h(316):     }\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     /***************************************************************\n
+..\\common_lib.h(316):     ** create a new object for each form element you need to validate\n
+..\\common_lib.h(316):     ** for example:\n
+..\\common_lib.h(316):     ** var lastName = new validation('last name', 'lastName', 'text', 'isText(str)', null);\n
+..\\common_lib.h(316):     ** var phoneNum = new validation('phone number', 'phoneNum', 'text', 'isPhoneNum(str)', 'x
+..\\common_lib.h(316):     xx-xxx-xxxx');\n
+..\\common_lib.h(316):     ** var reason = new validation('reason for reading this', 'reason', 'checkbox', 'isCheck(f
+..\\common_lib.h(316):     ormObj, form, 14, 3)', null);\n
+..\\common_lib.h(316):     ***************************************************************/\n
+..\\common_lib.h(316):     // create objects here:\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     var username = new validation('a username', 'username', 'text', 'isText(str)', null);\n
+..\\common_lib.h(316):     var password = new validation('a password', 'password', 'text', 'isText(str)', null);\n
+..\\common_lib.h(316):     var passwordC = new validation('a password confirmation', 'passwordConfirm', 'text', 'isTe
+..\\common_lib.h(316):     xt(str)', null);\n
+..\\common_lib.h(316):     var firstN = new validation('your first name', 'firstName', 'text', 'isText(str)', null);\n
+..\\common_lib.h(316):     var lastN = new validation('your last name', 'lastName', 'text', 'isText(str)', null);\n
+..\\common_lib.h(316):     var address = new validation('your address', 'address1', 'text', 'isText(str)', null);\n
+..\\common_lib.h(316):     var csz = new validation('your City/State/Zip', 'address2', 'text', 'isText(str)', null);\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     /***************************************************************\n
+..\\common_lib.h(316):     ** Define the elts array:\n
+..\\common_lib.h(316):     ** Add a new item to the array for each object you create above\n
+..\\common_lib.h(316):     ** Make sure the value of the array element is the same as\n
+..\\common_lib.h(316):     ** the name of the object, and that the array elements are listed\n
+..\\common_lib.h(316):     ** in the same order the corresponding objects appear in the form\n
+..\\common_lib.h(316):     ** (it's more clear to the user that way)\n
+..\\common_lib.h(316):     ** for example:\n
+..\\common_lib.h(316):     ** var elts = new Array(lastName, phoneNum, reason)\n
+..\\common_lib.h(316):     ***************************************************************/\n
+..\\common_lib.h(316):     var elts = new Array(username, password, passwordC, firstN, lastN, address, csz);\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     /***************************************************************\n
+..\\common_lib.h(316):     ** The main function keeps track of which fields the user missed\n
+..\\common_lib.h(316):     ** or filled in incorrectly, and alerts the user so they can go\n
+..\\common_lib.h(316):     ** back and fix what's wrong.\n
+..\\common_lib.h(316):     ** Set allAtOnce to true if you want this "validation help" to\n
+..\\common_lib.h(316):     ** alert the user to all mistakes at once; set it to false if\n
+..\\common_lib.h(316):     ** you want it to show one mistake at a time\n
+..\\common_lib.h(316):     ***************************************************************/\n
+..\\common_lib.h(316):     var allAtOnce = true;\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     /***************************************************************\n
+..\\common_lib.h(316):     ** change text for alerts here\n
+..\\common_lib.h(316):     ** unspecified field (text): "Please include [field name]."\n
+..\\common_lib.h(316):     ** unspecified field (other): "Please choose [field name]."\n
+..\\common_lib.h(316):     ** invalid text field entries: "[field value] is an invalid [field name]!"\n
+..\\common_lib.h(316):     ** help with format: "Use this format: "\n
+..\\common_lib.h(316):     ***************************************************************/\n
+..\\common_lib.h(316):     var beginRequestAlertForText = "Please include ";\n
+..\\common_lib.h(316):     var beginRequestAlertGeneric = "Please choose ";\n
+..\\common_lib.h(316):     var endRequestAlert = ".";\n
+..\\common_lib.h(316):     var beginInvalidAlert = " is an invalid ";\n
+..\\common_lib.h(316):     var endInvalidAlert = "!";\n
+..\\common_lib.h(316):     var beginFormatAlert = "  Use this format: ";\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     /***************************************************************\n
+..\\common_lib.h(316):     ** these functions validate the string or form object passed in,\n
+..\\common_lib.h(316):     ** and return true or false based on whether the test succeeds or fails\n
+..\\common_lib.h(316):     **\n
+..\\common_lib.h(316):     ** validate existence of input\n
+..\\common_lib.h(316):     **   isText(str): verifies text input or textarea is not empty\n
+..\\common_lib.h(316):     **   isSelect(formObj): verifies item from a select menu is chosen\n
+..\\common_lib.h(316):     **   isRadio(formObj): verifies one of a group of radio buttons is chosen\n
+..\\common_lib.h(316):     **   isCheck(formObj, form, [begin], [num]): verifies at least one\n
+..\\common_lib.h(316):     **       of a group of checkboxes is checked\n
+..\\common_lib.h(316):     **     for [begin], fill in the index number in the elements array\n
+..\\common_lib.h(316):     **         of the first checkbox (remember to start counting from zero)\n
+..\\common_lib.h(316):     **     for [num], fill in the number of checkboxes in the group\n
+..\\common_lib.h(316):     **\n
+..\\common_lib.h(316):     ** validate text in text input or textarea matches pattern\n
+..\\common_lib.h(316):     **   isEmail(str): verifies email address (contains "@" and ".")\n
+..\\common_lib.h(316):     **   isState(str): verifies U.S. State Code\n
+..\\common_lib.h(316):     **   isZipCode(str): verifies zip code of form xxxxx or xxxxx-xxxx\n
+..\\common_lib.h(316):     **   isPhoneNum(str): verifies phone number of form xxx-xxx-xxxx\n
+..\\common_lib.h(316):     **   isDate(str): verifies date of form mm/dd/yyyy\n
+..\\common_lib.h(316):     ***************************************************************/\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     function isText(str) {\n
+..\\common_lib.h(316):       return (str != "");\n
+..\\common_lib.h(316):     }\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     function isSelect(formObj) {\n
+..\\common_lib.h(316):       return (formObj.selectedIndex != 0);\n
+..\\common_lib.h(316):     }\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     function isRadio(formObj) {\n
+..\\common_lib.h(316):       for (j=0; j<formObj.length; j++) {\n
+..\\common_lib.h(316):         if (formObj[j].checked) {\n
+..\\common_lib.h(316):           return true;\n
+..\\common_lib.h(316):         }\n
+..\\common_lib.h(316):       }\n
+..\\common_lib.h(316):       return false;\n
+..\\common_lib.h(316):     }\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     function isCheck(formObj, form, begin, num) {\n
+..\\common_lib.h(316):       for (j=begin; j<begin+num; j++) {\n
+..\\common_lib.h(316):         if (form.elements[j].checked) {\n
+..\\common_lib.h(316):           return true;\n
+..\\common_lib.h(316):         }\n
+..\\common_lib.h(316):       }\n
+..\\common_lib.h(316):       return false;\n
+..\\common_lib.h(316):     }\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     function isEmail(str) {\n
+..\\common_lib.h(316):       return ((str != "") && (str.indexOf("@") != -1) && (str.indexOf(".") != -1));\n
+..\\common_lib.h(316):     }\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     function isState(str) {\n
+..\\common_lib.h(316):       str = str.toUpperCase();\n
+..\\common_lib.h(316):       return ( (str == "AK") || (str == "AL") || (str == "AR") || (str == "AZ") || (str == "CA
+..\\common_lib.h(316):     ") || (str == "CO") || (str == "CT") || (str == "DC") || (str == "DE") || (str == "FL") ||
+..\\common_lib.h(316):      (str == "GA") || (str == "HI") || (str == "IA") || (str == "ID") || (str == "IL") || (str
+..\\common_lib.h(316):      == "IN") || (str == "KS") || (str == "KY") || (str == "LA") || (str == "MA") || (str == "
+..\\common_lib.h(316):     MD") || (str == "ME") || (str == "MI") || (str == "MN") || (str == "MO") || (str == "MS") 
+..\\common_lib.h(316):     || (str == "MT") || (str == "NB") || (str == "NC") || (str == "ND") || (str == "NH") || (s
+..\\common_lib.h(316):     tr == "NJ") || (str == "NM") || (str == "NV") || (str == "NY") || (str == "OH") || (str ==
+..\\common_lib.h(316):      "OK") || (str == "OR") || (str == "PA") || (str == "RI") || (str == "SC") || (str == "SD"
+..\\common_lib.h(316):     ) || (str == "TN") || (str == "TX") || (str == "UT") || (str == "VA") || (str == "VT") || 
+..\\common_lib.h(316):     (str == "WA") || (str == "WI") || (str == "WV") || (str == "WY") );\n
+..\\common_lib.h(316):     }\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     function isZipCode(str) {\n
+..\\common_lib.h(316):       var l = str.length;\n
+..\\common_lib.h(316):       if ((l != 5) && (l != 10)) { return false }\n
+..\\common_lib.h(316):       for (j=0; j<l; j++) {\n
+..\\common_lib.h(316):         if ((l == 10) && (j == 5)) {\n
+..\\common_lib.h(316):           if (str.charAt(j) != "-") { return false }\n
+..\\common_lib.h(316):         } else {\n
+..\\common_lib.h(316):           if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }\n
+..\\common_lib.h(316):         }\n
+..\\common_lib.h(316):       }\n
+..\\common_lib.h(316):       return true;\n
+..\\common_lib.h(316):     }\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     function isPhoneNum(str) {\n
+..\\common_lib.h(316):       if (str.length != 12) { return false }\n
+..\\common_lib.h(316):       for (j=0; j<str.length; j++) {\n
+..\\common_lib.h(316):         if ((j == 3) || (j == 7)) {\n
+..\\common_lib.h(316):           if (str.charAt(j) != "-") { return false }\n
+..\\common_lib.h(316):         } else {\n
+..\\common_lib.h(316):           if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }\n
+..\\common_lib.h(316):         }\n
+..\\common_lib.h(316):       }\n
+..\\common_lib.h(316):       return true;\n
+..\\common_lib.h(316):     }\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     function isDate(str) {\n
+..\\common_lib.h(316):       if (str.length != 10) { return false }\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):       for (j=0; j<str.length; j++) {\n
+..\\common_lib.h(316):         if ((j == 2) || (j == 5)) {\n
+..\\common_lib.h(316):           if (str.charAt(j) != "/") { return false }\n
+..\\common_lib.h(316):         } else {\n
+..\\common_lib.h(316):           if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }\n
+..\\common_lib.h(316):         }\n
+..\\common_lib.h(316):       }\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):       var month = str.charAt(0) == "0" ? parseInt(str.substring(1,2)) : parseInt(str.substring
+..\\common_lib.h(316):     (0,2));\n
+..\\common_lib.h(316):       var day = str.charAt(3) == "0" ? parseInt(str.substring(4,5)) : parseInt(str.substring(3
+..\\common_lib.h(316):     ,5));\n
+..\\common_lib.h(316):       var begin = str.charAt(6) == "0" ? (str.charAt(7) == "0" ? (str.charAt(8) == "0" ? 9 : 8
+..\\common_lib.h(316):     ) : 7) : 6;\n
+..\\common_lib.h(316):       var year = parseInt(str.substring(begin, 10));\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):       if (day == 0) { return false }\n
+..\\common_lib.h(316):       if (month == 0 || month > 12) { return false }\n
+..\\common_lib.h(316):       if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 ||
+..\\common_lib.h(316):      month == 12) {\n
+..\\common_lib.h(316):         if (day > 31) { return false }\n
+..\\common_lib.h(316):       } else {\n
+..\\common_lib.h(316):         if (month == 4 || month == 6 || month == 9 || month == 11) {\n
+..\\common_lib.h(316):           if (day > 30) { return false }\n
+..\\common_lib.h(316):         } else {\n
+..\\common_lib.h(316):           if (year%4 != 0) {\n
+..\\common_lib.h(316):             if (day > 28) { return false }\n
+..\\common_lib.h(316):           } else {\n
+..\\common_lib.h(316):             if (day > 29) { return false }\n
+..\\common_lib.h(316):           }\n
+..\\common_lib.h(316):         }\n
+..\\common_lib.h(316):       }\n
+..\\common_lib.h(316):       return true;\n
+..\\common_lib.h(316):     }\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     /***************************************************************\n
+..\\common_lib.h(316):     ** The validateForm() function validates the form elements\n
+..\\common_lib.h(316):     ** previously defined as validation objects and as members of\n
+..\\common_lib.h(316):     ** the elts array. We loop through the elts array, testing each\n
+..\\common_lib.h(316):     ** element in turn, and alerting the user when they've missed\n
+..\\common_lib.h(316):     ** a required field\n
+..\\common_lib.h(316):     ***************************************************************/\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):     function validateForm(form) {\n
+..\\common_lib.h(316):       var formEltName = "";\n
+..\\common_lib.h(316):       var formObj = "";\n
+..\\common_lib.h(316):       var str = "";\n
+..\\common_lib.h(316):       var realName = "";\n
+..\\common_lib.h(316):       var alertText = "";\n
+..\\common_lib.h(316):       var firstMissingElt = null;\n
+..\\common_lib.h(316):       var hardReturn = "\\r\\n";\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):       for (i=0; i<elts.length; i++) {\n
+..\\common_lib.h(316):         formEltName = elts[i].formEltName;\n
+..\\common_lib.h(316):         formObj = eval("form." + formEltName);\n
+..\\common_lib.h(316):         realName = elts[i].realName;\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):         if (elts[i].eltType == "text") {\n
+..\\common_lib.h(316):           str = formObj.value;\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):           if (eval(elts[i].upToSnuff)) continue;\n
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):           if (str == "") {\n
+..\\common_lib.h(316):             if (allAtOnce) {\n
+..\\common_lib.h(316):               alertText += beginRequestAlertForText + realName + endRequestAlert + hardReturn;
+..\\common_lib.h(316):     \n
+..\\common_lib.h(316):               if (firstMissingElt == null) {firstMissingElt = formObj};\n
+..\\common_lib.h(316):             } else {\n
+..\\common_lib.h(316):               alertText = beginRequestAlertForText + realName + endRequestAlert + hardReturn;\n
+..\\common_lib.h(316):               alert(alertText);\n
+..\\common_lib.h(316):             }\n
+..\\common_lib.h(316):           } else {\n
+..\\common_lib.h(316):             if (allAtOnce) {\n
+..\\common_lib.h(316):               alertText += str + beginInvalidAlert + realName + endInvalidAlert + hardReturn;\n
+..\\common_lib.h(316):             } else {\n
+..\\common_lib.h(316):               alertText = str + beginInvalidAlert + realName + endInvalidAlert + hardReturn;\n
+..\\common_lib.h(316):             }\n
+..\\common_lib.h(316):             if (elts[i].format != null) {\n
+..\\common_lib.h(316):               alertText += beginFormatAlert + elts[i].format + hardReturn;\n
+..\\common_lib.h(316):             }\n
+..\\common_lib.h(316):             if (allAtOnce) {\n
+..\\common_lib.h(316):               if (firstMissingElt == null) {firstMissingElt = formObj};\n
+..\\common_lib.h(316):             } else {\n
+..\\common_lib.h(316):               alert(alertText);\n
+..\\common_lib.h(316):             }\n
+..\\common_lib.h(316):           }\n
+..\\common_lib.h(316):         } else {\n
+..\\common_lib.h(316):           if (eval(elts[i].upToSnuff)) continue;\n
+..\\common_lib.h(316):           if (allAtOnce) {\n
+..\\common_lib.h(316):             alertText += beginRequestAlertGeneric + realName + endRequestAlert + hardReturn;\n
+..\\common_lib.h(316):             if (firstMissingElt == null) {firstMissingElt = formObj};\n
+..\\common_lib.h(316):           } else {\n
+..\\common_lib.h(316):             alertText = beginRequestAlertGeneric + realName + endRequestAlert + hardReturn;\n
+..\\common_lib.h(316):             alert(alertText);\n
+..\\common_lib.h(316):           }\n
+..\\common_lib.h(316):         }\n
+..\\common_lib.h(316):         if (!isIE3) {\n
+..\\common_lib.h(316):           var goToObj = (allAtOnce) ? firstMissingElt : formObj;\n
+..\\common_lib.h(316):           if (goToObj.select) goToObj.select();\n
+..\\common_lib.h(316):           if (goToObj.focus) goToObj.focus();\n
+..\\common_lib.h(316):         }\n
+..\\common_lib.h(316):         if (!allAtOnce) {return false};\n
+..\\common_lib.h(316):       }\n
+..\\common_lib.h(316):       if (allAtOnce) {\n
+..\\common_lib.h(316):         if (alertText != "") {\n
+..\\common_lib.h(316):           alert(alertText);\n
+..\\common_lib.h(316):           return false;\n
+..\\common_lib.h(316):         }\n
+..\\common_lib.h(316):       } \n
+..\\common_lib.h(316):     //  alert("I am valid!"); //remove this line when you use the code\n
+..\\common_lib.h(316):       return true; //change this to return true to make the form submit\n
+..\\common_lib.h(316):     }\n
+..\\common_lib.h(316): t=1397968ms: Request done "http://localhost:8090/WebTours/profileValidate.js"  	[MsgId: MMSG-26000]
+..\\common_lib.h(316): web_url("sign up now") was successful, 14470 body bytes, 571 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(326): Notify: Transaction "goToSignUp" ended with a "Pass" status (Duration: 5,2224 Think Time: 5,0037).	[MsgId: MMSG-16872]
+..\\common_lib.h(332): Notify: Transaction "registration" started.	[MsgId: MMSG-16999]
+..\\common_lib.h(334): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(334): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+..\\common_lib.h(334): "Origin: http://localhost:8090" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\common_lib.h(334): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\common_lib.h(336): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(336): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+..\\common_lib.h(336): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\common_lib.h(336): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\common_lib.h(339): web_reg_find started  	[MsgId: MMSG-26355]
+..\\common_lib.h(339): Notify: Parameter Substitution: parameter "userLogin" =  "mKlZfwBr"	[MsgId: MMSG-13992]
+..\\common_lib.h(339): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\common_lib.h(341): Think time - Waiting 5,00 seconds (according to limit).	[MsgId: MMSG-15946]
+..\\common_lib.h(341): lr_think_time: 5,00 seconds (recorded think time was 24,00 seconds).	[MsgId: MMSG-15947]
+..\\common_lib.h(343): web_submit_form("login.pl") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(343): Notify: Parameter Substitution: parameter "userLogin" =  "mKlZfwBr"	[MsgId: MMSG-13992]
+..\\common_lib.h(343): Notify: Parameter Substitution: parameter "userPassword" =  "pITSnMVm"	[MsgId: MMSG-13992]
+..\\common_lib.h(343): Notify: Parameter Substitution: parameter "userPassword" =  "pITSnMVm"	[MsgId: MMSG-13992]
+..\\common_lib.h(343): Notify: Parameter Substitution: parameter "firstName" =  "XpqXIjcd"	[MsgId: MMSG-13992]
+..\\common_lib.h(343): Notify: Parameter Substitution: parameter "lastName" =  "SSQgHqHD"	[MsgId: MMSG-13992]
+..\\common_lib.h(343): Notify: Parameter Substitution: parameter "address" =  "eqCJGKxs"	[MsgId: MMSG-13992]
+..\\common_lib.h(343): Notify: Parameter Substitution: parameter "address" =  "eqCJGKxs"	[MsgId: MMSG-13992]
+..\\common_lib.h(343): Submitting form to "http://localhost:8090/WebTours/login.pl", Target Frame="info"  	[MsgId: MMSG-27978]
+..\\common_lib.h(343): t=1402969ms: Already connected [0] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(343): t=1402969ms: 558-byte request headers for "http://localhost:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=374)
+..\\common_lib.h(343):     POST /WebTours/login.pl HTTP/1.1\r\n
+..\\common_lib.h(343):     Content-Type: application/x-www-form-urlencoded\r\n
+..\\common_lib.h(343):     Referer: http://localhost:8090/WebTours/login.pl?username=&password=&getInfo=true\r\n
+..\\common_lib.h(343):     Origin: http://localhost:8090\r\n
+..\\common_lib.h(343):     Upgrade-Insecure-Requests: 1\r\n
+..\\common_lib.h(343):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(343):     .0\r\n
+..\\common_lib.h(343):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(343):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(343):     Accept: */*\r\n
+..\\common_lib.h(343):     Connection: Keep-Alive\r\n
+..\\common_lib.h(343):     Host: localhost:8090\r\n
+..\\common_lib.h(343):     Cookie: MSO=SID&1666932790&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+..\\common_lib.h(343):     \n
+..\\common_lib.h(343):     Content-Length: 161\r\n
+..\\common_lib.h(343):     \r\n
+..\\common_lib.h(343): t=1402969ms: 161-byte request body for "http://localhost:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=374)
+..\\common_lib.h(343):     username=mKlZfwBr&password=pITSnMVm&passwordConfirm=pITSnMVm&firstName=XpqXIjcd&lastName=S
+..\\common_lib.h(343):     SQgHqHD&address1=eqCJGKxs&address2=eqCJGKxs&register.x=45&register.y=15
+..\\common_lib.h(343): t=1403177ms: 378-byte response headers for "http://localhost:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=374)
+..\\common_lib.h(343):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(343):     Server: Xitami\r\n
+..\\common_lib.h(343):     Date: Fri, 28 Oct 2022 04:53:21 GMT\r\n
+..\\common_lib.h(343):     Cache-control: no-cache\r\n
+..\\common_lib.h(343):     Expires: 0\r\n
+..\\common_lib.h(343):     Content-length: 1077\r\n
+..\\common_lib.h(343):     Content-type: text/html; charset=ISO-8859-1\r\n
+..\\common_lib.h(343):     Date: Fri, 28 Oct 2022 04:53:21 GMT\r\n
+..\\common_lib.h(343):     Expires: 5s\r\n
+..\\common_lib.h(343):     Set-cookie: MTUserInfo=firstName&XpqXIjcd&address2&eqCJGKxs&username&mKlZfwBr&hash&50&last
+..\\common_lib.h(343):     Name&SSQgHqHD&address1&eqCJGKxs&creditCard&&expDate&; path=/\r\n
+..\\common_lib.h(343):     \r\n
+..\\common_lib.h(343): t=1403178ms: 1077-byte response body for "http://localhost:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=374)
+..\\common_lib.h(343):     <!DOCTYPE html\n
+..\\common_lib.h(343):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\common_lib.h(343):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\common_lib.h(343):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\common_lib.h(343):     <head>\n
+..\\common_lib.h(343):     <title>Welcome to Web Tours</title>\n
+..\\common_lib.h(343):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\common_lib.h(343):     </head>\n
+..\\common_lib.h(343):     <body bgcolor="#E0E7F1">\n
+..\\common_lib.h(343):     \n
+..\\common_lib.h(343):     <br><br><br\n
+..\\common_lib.h(343):     \n
+..\\common_lib.h(343):     \n
+..\\common_lib.h(343):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+..\\common_lib.h(343):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+..\\common_lib.h(343):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+..\\common_lib.h(343):     black}</style><blockquote>Thank you, <b>mKlZfwBr</b>, for registering and welcome to the W
+..\\common_lib.h(343):     eb Tours family.\n
+..\\common_lib.h(343):     We hope we can meet all your current and future travel needs.  If you have any questions, 
+..\\common_lib.h(343):     feel free \n
+..\\common_lib.h(343):     to ask our support staff.   Click below when you're ready to plan your dream trip...<p /><
+..\\common_lib.h(343):     center><a href=welcome.pl?page=menus target='body'><img src=/WebTours/images/button_next.g
+..\\common_lib.h(343):     if border=0></a></center></blockquote>\n
+..\\common_lib.h(343):     </body>\n
+..\\common_lib.h(343):     </html>
+..\\common_lib.h(343): Resource "http://localhost:8090/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(343): t=1403178ms: Request done "http://localhost:8090/WebTours/login.pl"  	[MsgId: MMSG-26000]
+..\\common_lib.h(343): Registered web_reg_find successful for "Text=Thank you, <b>mKlZfwBr</b>, for registering and welcome to the Web Tours family." (count=1)  	[MsgId: MMSG-26364]
+..\\common_lib.h(343): web_submit_form("login.pl") was successful, 1077 body bytes, 378 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(357): Notify: Transaction "registration" ended with a "Pass" status (Duration: 5,2103 Think Time: 4,9998 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+..\\common_lib.h(364): Notify: Transaction "regContinue" started.	[MsgId: MMSG-16999]
+..\\common_lib.h(366): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(366): Warning -26590: web_remove/revert_auto_header for "Upgrade-Insecure-Requests" had no effect  	[MsgId: MWAR-26590]
+..\\common_lib.h(366): web_remove/revert_auto_header("Upgrade-Insecure-Requests") highest severity level was "warning"  	[MsgId: MMSG-26391]
+..\\common_lib.h(368): web_url("Home Button") started  	[MsgId: MMSG-26355]
+..\\common_lib.h(368): t=1403179ms: Already connected [0] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(368): t=1403179ms: 538-byte request headers for "http://localhost:8090/WebTours/welcome.pl?page=menus" (RelFrameId=1, Internal ID=375)
+..\\common_lib.h(368):     GET /WebTours/welcome.pl?page=menus HTTP/1.1\r\n
+..\\common_lib.h(368):     Referer: http://localhost:8090/WebTours/login.pl\r\n
+..\\common_lib.h(368):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(368):     .0\r\n
+..\\common_lib.h(368):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(368):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(368):     Accept: */*\r\n
+..\\common_lib.h(368):     Connection: Keep-Alive\r\n
+..\\common_lib.h(368):     Host: localhost:8090\r\n
+..\\common_lib.h(368):     Cookie: MSO=SID&1666932790&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+..\\common_lib.h(368):     MTUserInfo=firstName&XpqXIjcd&address2&eqCJGKxs&username&mKlZfwBr&hash&50&lastName&SSQgHqH
+..\\common_lib.h(368):     D&address1&eqCJGKxs&creditCard&&expDate&\r\n
+..\\common_lib.h(368):     \r\n
+..\\common_lib.h(368): t=1403376ms: 175-byte response headers for "http://localhost:8090/WebTours/welcome.pl?page=menus" (RelFrameId=1, Internal ID=375)
+..\\common_lib.h(368):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(368):     Server: Xitami\r\n
+..\\common_lib.h(368):     Date: Fri, 28 Oct 2022 04:53:21 GMT\r\n
+..\\common_lib.h(368):     Cache-control: no-cache\r\n
+..\\common_lib.h(368):     Expires: 0\r\n
+..\\common_lib.h(368):     Content-length: 540\r\n
+..\\common_lib.h(368):     Content-type: text/html; charset=ISO-8859-1\r\n
+..\\common_lib.h(368):     \r\n
+..\\common_lib.h(368): t=1403377ms: 540-byte response body for "http://localhost:8090/WebTours/welcome.pl?page=menus" (RelFrameId=1, Internal ID=375)
+..\\common_lib.h(368):     <!-- \n
+..\\common_lib.h(368):      User has returned to the home page.  Since user has already logged on,\n
+..\\common_lib.h(368):      we can give them the menu in the navbar.\n
+..\\common_lib.h(368):      --->\n
+..\\common_lib.h(368):     \n
+..\\common_lib.h(368):     <html>\n
+..\\common_lib.h(368):     <title>Web Tours</title>\n
+..\\common_lib.h(368):        <!-- Frame Set -->\n
+..\\common_lib.h(368):        <frameset cols="160,*" border=1 frameborder=1>\n
+..\\common_lib.h(368):           <!-- Navigation Frame -->\n
+..\\common_lib.h(368):           <frame src=nav.pl?page=menu&in=home name=navbar \n
+..\\common_lib.h(368):                 marginheight=2 marginwidth=2 noresize scrolling=auto>\n
+..\\common_lib.h(368):           <!-- Intro Frame -->\n
+..\\common_lib.h(368):           <frame src=login.pl?intro=true name=info \n
+..\\common_lib.h(368):                 marginheight=2 marginwidth=2 noresize scrolling=auto>\n
+..\\common_lib.h(368):        </frameset>\n
+..\\common_lib.h(368): Detected non-resource "http://localhost:8090/WebTours/nav.pl?page=menu&in=home" in "http://localhost:8090/WebTours/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+..\\common_lib.h(368): Detected non-resource "http://localhost:8090/WebTours/login.pl?intro=true" in "http://localhost:8090/WebTours/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+..\\common_lib.h(368): t=1403377ms: Request done "http://localhost:8090/WebTours/welcome.pl?page=menus"  	[MsgId: MMSG-26000]
+..\\common_lib.h(368): t=1403377ms: Already connected [1] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(368): t=1403377ms: 554-byte request headers for "http://localhost:8090/WebTours/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=376)
+..\\common_lib.h(368):     GET /WebTours/nav.pl?page=menu&in=home HTTP/1.1\r\n
+..\\common_lib.h(368):     Referer: http://localhost:8090/WebTours/welcome.pl?page=menus\r\n
+..\\common_lib.h(368):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(368):     .0\r\n
+..\\common_lib.h(368):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(368):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(368):     Accept: */*\r\n
+..\\common_lib.h(368):     Connection: Keep-Alive\r\n
+..\\common_lib.h(368):     Host: localhost:8090\r\n
+..\\common_lib.h(368):     Cookie: MSO=SID&1666932790&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+..\\common_lib.h(368):     MTUserInfo=firstName&XpqXIjcd&address2&eqCJGKxs&username&mKlZfwBr&hash&50&lastName&SSQgHqH
+..\\common_lib.h(368):     D&address1&eqCJGKxs&creditCard&&expDate&\r\n
+..\\common_lib.h(368):     \r\n
+..\\common_lib.h(368): t=1403377ms: Already connected [2] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(368): t=1403377ms: 549-byte request headers for "http://localhost:8090/WebTours/login.pl?intro=true" (RelFrameId=1.2, Internal ID=377)
+..\\common_lib.h(368):     GET /WebTours/login.pl?intro=true HTTP/1.1\r\n
+..\\common_lib.h(368):     Referer: http://localhost:8090/WebTours/welcome.pl?page=menus\r\n
+..\\common_lib.h(368):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(368):     .0\r\n
+..\\common_lib.h(368):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(368):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(368):     Accept: */*\r\n
+..\\common_lib.h(368):     Connection: Keep-Alive\r\n
+..\\common_lib.h(368):     Host: localhost:8090\r\n
+..\\common_lib.h(368):     Cookie: MSO=SID&1666932790&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+..\\common_lib.h(368):     MTUserInfo=firstName&XpqXIjcd&address2&eqCJGKxs&username&mKlZfwBr&hash&50&lastName&SSQgHqH
+..\\common_lib.h(368):     D&address1&eqCJGKxs&creditCard&&expDate&\r\n
+..\\common_lib.h(368):     \r\n
+..\\common_lib.h(368): t=1403588ms: 225-byte response headers for "http://localhost:8090/WebTours/login.pl?intro=true" (RelFrameId=1.2, Internal ID=377)
+..\\common_lib.h(368):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(368):     Server: Xitami\r\n
+..\\common_lib.h(368):     Date: Fri, 28 Oct 2022 04:53:21 GMT\r\n
+..\\common_lib.h(368):     Cache-control: no-cache\r\n
+..\\common_lib.h(368):     Expires: 0\r\n
+..\\common_lib.h(368):     Content-length: 916\r\n
+..\\common_lib.h(368):     Content-type: text/html; charset=ISO-8859-1\r\n
+..\\common_lib.h(368):     Date: Fri, 28 Oct 2022 04:53:21 GMT\r\n
+..\\common_lib.h(368):     Expires: 5s\r\n
+..\\common_lib.h(368):     \r\n
+..\\common_lib.h(368): t=1403589ms: 916-byte response body for "http://localhost:8090/WebTours/login.pl?intro=true" (RelFrameId=1.2, Internal ID=377)
+..\\common_lib.h(368):     <!DOCTYPE html\n
+..\\common_lib.h(368):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\common_lib.h(368):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\common_lib.h(368):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\common_lib.h(368):     <head>\n
+..\\common_lib.h(368):     <title>Welcome to Web Tours</title>\n
+..\\common_lib.h(368):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\common_lib.h(368):     </head>\n
+..\\common_lib.h(368):     <body bgcolor="#E0E7F1">\n
+..\\common_lib.h(368):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+..\\common_lib.h(368):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+..\\common_lib.h(368):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+..\\common_lib.h(368):     black}</style><BR><BR><BR><BR><BR><blockquote>Welcome, <b>mKlZfwBr</b>, to the Web Tours r
+..\\common_lib.h(368):     eservation pages.<BR>Using the menu to the left, you can search for new flights to book, \n
+..\\common_lib.h(368):     or review/edit the flights already booked.  Don't forget to sign off when\n
+..\\common_lib.h(368):     you're done!\n
+..\\common_lib.h(368):     </blockquote>\n
+..\\common_lib.h(368):     </body>\n
+..\\common_lib.h(368):     </html>
+..\\common_lib.h(368): t=1403589ms: Request done "http://localhost:8090/WebTours/login.pl?intro=true"  	[MsgId: MMSG-26000]
+..\\common_lib.h(368): t=1403589ms: 253-byte response headers for "http://localhost:8090/WebTours/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=376)
+..\\common_lib.h(368):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(368):     Server: Xitami\r\n
+..\\common_lib.h(368):     Date: Fri, 28 Oct 2022 04:53:21 GMT\r\n
+..\\common_lib.h(368):     Cache-control: no-cache\r\n
+..\\common_lib.h(368):     Expires: 0\r\n
+..\\common_lib.h(368):     Content-length: 1476\r\n
+..\\common_lib.h(368):     Content-type: text/html; charset=ISO-8859-1\r\n
+..\\common_lib.h(368):     Date: Fri, 28 Oct 2022 04:53:21 GMT\r\n
+..\\common_lib.h(368):     Expires: Thu, 27 Oct 2022 04:53:21 GMT\r\n
+..\\common_lib.h(368):     \r\n
+..\\common_lib.h(368): t=1403589ms: 1476-byte response body for "http://localhost:8090/WebTours/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=376)
+..\\common_lib.h(368):     <!DOCTYPE html\n
+..\\common_lib.h(368):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\common_lib.h(368):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\common_lib.h(368):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\common_lib.h(368):     <head>\n
+..\\common_lib.h(368):     <title>Web Tours Navigation Bar</title>\n
+..\\common_lib.h(368):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\common_lib.h(368):     </head>\n
+..\\common_lib.h(368):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+..\\common_lib.h(368):     \n
+..\\common_lib.h(368):     <style>\n
+..\\common_lib.h(368):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\common_lib.h(368):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\common_lib.h(368):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\common_lib.h(368):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\common_lib.h(368):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\common_lib.h(368):     N: none}\n
+..\\common_lib.h(368):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\common_lib.h(368):     CORATION: underline}\n
+..\\common_lib.h(368):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\common_lib.h(368):     </style>\n
+..\\common_lib.h(368):     \n
+..\\common_lib.h(368):     <BR><BR><center>\n
+..\\common_lib.h(368):     \n
+..\\common_lib.h(368):     <br clear><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC=/WebT
+..\\common_lib.h(368):     ours/images/flights.gif \n
+..\\common_lib.h(368):     ALT="Search Flights Button"></A>\n
+..\\common_lib.h(368):     <br clear><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC=/WebTours/
+..\\common_lib.h(368):     images/itinerary.gif \n
+..\\common_lib.h(368):     ALT="Itinerary Button"></A>\n
+..\\common_lib.h(368):     <br clear><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC=/WebTours/imag
+..\\common_lib.h(368):     es/in_home.gif \n
+..\\common_lib.h(368):     ALT="Home Button"></A>\n
+..\\common_lib.h(368):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC=/WebTours/image
+..\\common_lib.h(368):     s/signoff.gif \n
+..\\common_lib.h(368):     ALT="SignOff Button"></A></center>\n
+..\\common_lib.h(368):     \n
+..\\common_lib.h(368):     </body>\n
+..\\common_lib.h(368):     </html>\n
+..\\common_lib.h(368): Resource "http://localhost:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(368): Found resource "http://localhost:8090/WebTours/images/flights.gif" in HTML "http://localhost:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\common_lib.h(368): Found resource "http://localhost:8090/WebTours/images/itinerary.gif" in HTML "http://localhost:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\common_lib.h(368): Resource "http://localhost:8090/WebTours/images/in_home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\common_lib.h(368): Found resource "http://localhost:8090/WebTours/images/signoff.gif" in HTML "http://localhost:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\common_lib.h(368): t=1403590ms: Request done "http://localhost:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26000]
+..\\common_lib.h(368): t=1403590ms: Already connected [0] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(368): t=1403590ms: 551-byte request headers for "http://localhost:8090/WebTours/images/flights.gif" (RelFrameId=, Internal ID=378)
+..\\common_lib.h(368):     GET /WebTours/images/flights.gif HTTP/1.1\r\n
+..\\common_lib.h(368):     Referer: http://localhost:8090/WebTours/nav.pl?page=menu&in=home\r\n
+..\\common_lib.h(368):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(368):     .0\r\n
+..\\common_lib.h(368):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(368):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(368):     Accept: */*\r\n
+..\\common_lib.h(368):     Connection: Keep-Alive\r\n
+..\\common_lib.h(368):     Host: localhost:8090\r\n
+..\\common_lib.h(368):     Cookie: MSO=SID&1666932790&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+..\\common_lib.h(368):     MTUserInfo=firstName&XpqXIjcd&address2&eqCJGKxs&username&mKlZfwBr&hash&50&lastName&SSQgHqH
+..\\common_lib.h(368):     D&address1&eqCJGKxs&creditCard&&expDate&\r\n
+..\\common_lib.h(368):     \r\n
+..\\common_lib.h(368): t=1403590ms: Already connected [2] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(368): t=1403590ms: 553-byte request headers for "http://localhost:8090/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=379)
+..\\common_lib.h(368):     GET /WebTours/images/itinerary.gif HTTP/1.1\r\n
+..\\common_lib.h(368):     Referer: http://localhost:8090/WebTours/nav.pl?page=menu&in=home\r\n
+..\\common_lib.h(368):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(368):     .0\r\n
+..\\common_lib.h(368):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(368):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(368):     Accept: */*\r\n
+..\\common_lib.h(368):     Connection: Keep-Alive\r\n
+..\\common_lib.h(368):     Host: localhost:8090\r\n
+..\\common_lib.h(368):     Cookie: MSO=SID&1666932790&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+..\\common_lib.h(368):     MTUserInfo=firstName&XpqXIjcd&address2&eqCJGKxs&username&mKlZfwBr&hash&50&lastName&SSQgHqH
+..\\common_lib.h(368):     D&address1&eqCJGKxs&creditCard&&expDate&\r\n
+..\\common_lib.h(368):     \r\n
+..\\common_lib.h(368): t=1403591ms: Already connected [3] to localhost:8090  	[MsgId: MMSG-26000]
+..\\common_lib.h(368): t=1403591ms: 551-byte request headers for "http://localhost:8090/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=380)
+..\\common_lib.h(368):     GET /WebTours/images/signoff.gif HTTP/1.1\r\n
+..\\common_lib.h(368):     Referer: http://localhost:8090/WebTours/nav.pl?page=menu&in=home\r\n
+..\\common_lib.h(368):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105
+..\\common_lib.h(368):     .0\r\n
+..\\common_lib.h(368):     Accept-Encoding: gzip, deflate\r\n
+..\\common_lib.h(368):     Accept-Language: en-US,en;q=0.5\r\n
+..\\common_lib.h(368):     Accept: */*\r\n
+..\\common_lib.h(368):     Connection: Keep-Alive\r\n
+..\\common_lib.h(368):     Host: localhost:8090\r\n
+..\\common_lib.h(368):     Cookie: MSO=SID&1666932790&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+..\\common_lib.h(368):     MTUserInfo=firstName&XpqXIjcd&address2&eqCJGKxs&username&mKlZfwBr&hash&50&lastName&SSQgHqH
+..\\common_lib.h(368):     D&address1&eqCJGKxs&creditCard&&expDate&\r\n
+..\\common_lib.h(368):     \r\n
+..\\common_lib.h(368): t=1403592ms: 164-byte response headers for "http://localhost:8090/WebTours/images/flights.gif" (RelFrameId=, Internal ID=378)
+..\\common_lib.h(368):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(368):     Server: Xitami\r\n
+..\\common_lib.h(368):     Date: Fri, 28 Oct 2022 04:53:21 GMT\r\n
+..\\common_lib.h(368):     Content-type: image/gif\r\n
+..\\common_lib.h(368):     Content-length: 726\r\n
+..\\common_lib.h(368):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+..\\common_lib.h(368):     \r\n
+..\\common_lib.h(368): t=1403593ms: 164-byte response headers for "http://localhost:8090/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=380)
+..\\common_lib.h(368):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(368):     Server: Xitami\r\n
+..\\common_lib.h(368):     Date: Fri, 28 Oct 2022 04:53:21 GMT\r\n
+..\\common_lib.h(368):     Content-type: image/gif\r\n
+..\\common_lib.h(368):     Content-length: 751\r\n
+..\\common_lib.h(368):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+..\\common_lib.h(368):     \r\n
+..\\common_lib.h(368): t=1403594ms: 726-byte response body for "http://localhost:8090/WebTours/images/flights.gif" (RelFrameId=, Internal ID=378)
+..\\common_lib.h(368): t=1403594ms: Request done "http://localhost:8090/WebTours/images/flights.gif"  	[MsgId: MMSG-26000]
+..\\common_lib.h(368): t=1403594ms: 164-byte response headers for "http://localhost:8090/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=379)
+..\\common_lib.h(368):     HTTP/1.1 200 Ok\r\n
+..\\common_lib.h(368):     Server: Xitami\r\n
+..\\common_lib.h(368):     Date: Fri, 28 Oct 2022 04:53:21 GMT\r\n
+..\\common_lib.h(368):     Content-type: image/gif\r\n
+..\\common_lib.h(368):     Content-length: 733\r\n
+..\\common_lib.h(368):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+..\\common_lib.h(368):     \r\n
+..\\common_lib.h(368): t=1403594ms: 733-byte response body for "http://localhost:8090/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=379)
+..\\common_lib.h(368): t=1403594ms: Request done "http://localhost:8090/WebTours/images/itinerary.gif"  	[MsgId: MMSG-26000]
+..\\common_lib.h(368): t=1403594ms: 751-byte response body for "http://localhost:8090/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=380)
+..\\common_lib.h(368): t=1403594ms: Request done "http://localhost:8090/WebTours/images/signoff.gif"  	[MsgId: MMSG-26000]
+..\\common_lib.h(368): web_url("Home Button") was successful, 5142 body bytes, 1145 header bytes  	[MsgId: MMSG-26386]
+..\\common_lib.h(378): Notify: Transaction "regContinue" ended with a "Pass" status (Duration: 0,4155).	[MsgId: MMSG-16873]
+Action.c(15): Notify: Transaction "UC_3_SignUp" ended with a "Pass" status (Duration: 11,2974 Think Time: 10,0034 Wasted Time: 0,0005).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 19.	[MsgId: MMSG-15965]
+Waiting 62,7010 seconds for iteration pacing.	[MsgId: MMSG-15996]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=1405297ms: Closed connection [0] to localhost:8090 after completing 7 request(s)  	[MsgId: MMSG-26000]
+t=1405297ms: Closed connection [1] to localhost:8090 after completing 5 request(s)  	[MsgId: MMSG-26000]
+t=1405297ms: Closed connection [2] to localhost:8090 after completing 5 request(s)  	[MsgId: MMSG-26000]
+t=1405297ms: Closed connection [3] to localhost:8090 after completing 2 request(s)  	[MsgId: MMSG-26000]
+t=1405298ms: Closed connection [4] to localhost:8090 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=6, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 12808), ended OK."	[MsgId: MMSG-10695]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=1435438ms: Closed connection [0] to localhost:8090 after completing 7 request(s)  	[MsgId: MMSG-26000]
+t=1435438ms: Closed connection [1] to localhost:8090 after completing 5 request(s)  	[MsgId: MMSG-26000]
+t=1435438ms: Closed connection [2] to localhost:8090 after completing 5 request(s)  	[MsgId: MMSG-26000]
+t=1435438ms: Closed connection [3] to localhost:8090 after completing 2 request(s)  	[MsgId: MMSG-26000]
+t=1435438ms: Closed connection [4] to localhost:8090 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=6, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 1 (thread 18928), ended OK."	[MsgId: MMSG-10695]

@@ -2860,7 +2860,7 @@ deleteFirst (){
 	lr_start_transaction("deleteFirst");
 	
 		web_reg_find("Fail=Found",
-		"Text/IC=\"flightID\" value={deleteFlightID}",
+		"Text/IC=\"flightID\" value=\"{deleteFlightID}",
 		"LAST");
 
 		web_add_header("Origin", "http://localhost:8090");
@@ -2945,6 +2945,27 @@ registration (){
 	
 	return 0;
 }
+
+regContinue () {
+
+	lr_start_transaction("regContinue");
+
+	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
+
+	web_url("Home Button", 
+		"URL=http://localhost:8090/WebTours/welcome.pl?page=menus", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:8090/WebTours/login.pl", 
+		"Snapshot=t4.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	lr_end_transaction("regContinue",2);
+
+return 0 ;
+}
 # 9 "globals.h" 2
 
  
@@ -2973,6 +2994,8 @@ Action()
 	goToFlight();
 	
 	findFlight();
+	
+	choose_flight();
 	
 	logout();
 	

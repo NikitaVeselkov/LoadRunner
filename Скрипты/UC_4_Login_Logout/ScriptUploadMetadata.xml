@@ -33,6 +33,7 @@
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UC_4_Login_Logout.c.pickle" Filter="1" />
     <FileEntry Name="UC_4_Login_Logout.ci" Filter="1" />
+    <FileEntry Name="UC_4_Login_Logout.prm.bak" Filter="1" />
     <FileEntry Name="userLogin.dat" Filter="1" />
     <FileEntry Name="userPassword.dat" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />

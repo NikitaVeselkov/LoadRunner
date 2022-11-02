@@ -10,7 +10,9 @@ lr_start_transaction("UC_2_DeleteFlight");
 	
 	deleteFirst();
 	
-	logout();
+	
+	
+	
 	
 
 lr_end_transaction("UC_2_DeleteFlight", LR_AUTO);

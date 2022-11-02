@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Nikitka\Documents\VuGen\Scripts\UC_6_GoToItenerary
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\nikitka\documents\vugen\scripts\uc_6_gotoitenerary\\logfile.log
+c:\users\nikitka\documents\vugen\scripts\uc_6_gotoitenerary\\combined_UC_6_GoToItenerary.c
+c:\users\nikitka\documents\vugen\scripts\uc_6_gotoitenerary\\pre_cci.c

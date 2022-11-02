@@ -1,0 +1,14 @@
+POST /WebTours/itinerary.pl HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://localhost:8090/WebTours/itinerary.pl
+Origin: http://localhost:8090
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.5
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:8090
+Cookie: MSO=SID&1666955470&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&wGchGFxj&address2&teWIBJkC&username&sWBHELYH&hash&104&lastName&DJxKwypg%0A&address1&teWIBJkC&creditCard&&expDate&%0A
+Content-Length: 2575
+

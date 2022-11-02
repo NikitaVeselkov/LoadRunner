@@ -9,6 +9,7 @@ lr_start_transaction("UC_1_BuyTicket");
 	findFlight();
 	choose_flight();
 	paymentDetails();
+	goToitinerary(); // нужна для профиля
 	logout();
 	
 	lr_end_transaction("UC_1_BuyTicket", LR_AUTO);

@@ -18,9 +18,11 @@
     <FileEntry Name="103675773440.idx" Filter="1" />
     <FileEntry Name="142160783440.idx" Filter="1" />
     <FileEntry Name="14216078344_2QC.583.idx" Filter="1" />
+    <FileEntry Name="14216078344_3v0.733.idx" Filter="1" />
     <FileEntry Name="14216078344_5tu.983.idx" Filter="1" />
     <FileEntry Name="14216078344_7ec.683.idx" Filter="1" />
     <FileEntry Name="14216078344_EOm.99.idx" Filter="1" />
+    <FileEntry Name="14216078344_i6K.249.idx" Filter="1" />
     <FileEntry Name="14216078344_IcB.195.idx" Filter="1" />
     <FileEntry Name="14216078344_J64.745.idx" Filter="1" />
     <FileEntry Name="14216078344_nFn.541.idx" Filter="1" />
@@ -39,6 +41,8 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvib5.671.log" Filter="1" />
+    <FileEntry Name="mdrvK2w.457.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

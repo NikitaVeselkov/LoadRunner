@@ -11,6 +11,8 @@ Action()
 	
 	findFlight();
 	
+	choose_flight();
+	
 	logout();
 	
 	lr_end_transaction("UC_5_FindFlight", LR_AUTO);

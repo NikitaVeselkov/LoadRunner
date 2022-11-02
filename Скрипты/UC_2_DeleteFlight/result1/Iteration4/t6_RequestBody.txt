@@ -1,0 +1,2 @@
+"1=on&flightID=0-0-1&flightID=0-1-&flightID=0-2-eh&flightID=0-3-l&flightID=0-3-&.cgifields=4&.c"
+"gifields=1&.cgifields=3&.cgifields=2&.cgifields=5&removeFlights.x=48&removeFlights.y=8"

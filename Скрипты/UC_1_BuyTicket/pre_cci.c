@@ -2827,6 +2827,146 @@ paymentDetails(){
 	
 	return 0;
 }
+
+goToitinerary(){
+	
+	web_reg_save_param_attrib(
+		"ParamName=deleteFlightID",
+		"TagName=input",
+		"Extract=value",
+		"Name=flightID",
+		"Type=hidden",
+		"Ordinal=1",
+		"SEARCH_FILTERS",
+		"IgnoreRedirections=Yes",
+		"LAST");
+
+	lr_start_transaction("goToitinerary");
+		web_add_auto_header("Upgrade-Insecure-Requests", "1");
+		lr_think_time(11);
+		web_url("Itinerary Button", 
+			"URL=http://localhost:8090/WebTours/welcome.pl?page=itinerary", 
+			"TargetFrame=body", 
+			"Resource=0", 
+			"RecContentType=text/html", 
+			"Referer=http://localhost:8090/WebTours/nav.pl?page=menu&in=home", 
+			"Snapshot=t12.inf", 
+			"Mode=HTML", 
+			"LAST");
+	lr_end_transaction("goToitinerary",2);
+	return 0;
+}
+
+deleteFirst (){
+	lr_start_transaction("deleteFirst");
+	
+		web_reg_find("Fail=Found",
+		"Text/IC=\"flightID\" value=\"{deleteFlightID}",
+		"LAST");
+
+		web_add_header("Origin", "http://localhost:8090");
+		web_submit_form("itinerary.pl", 
+			"Snapshot=t13.inf",
+			"ITEMDATA", 
+			"Name=1", "Value=on", "ENDITEM",
+			"Name=removeFlights.x", "Value=48", "ENDITEM", 
+			"Name=removeFlights.y", "Value=8", "ENDITEM",		
+			"LAST");
+	
+	lr_end_transaction("deleteFirst",2);
+	
+	return 0;
+}
+
+generatorData(){
+	
+	lr_save_string(lr_eval_string("{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}"), "userLogin");
+	
+	lr_save_string(lr_eval_string("{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}"), "userPassword");
+	
+	lr_save_string(lr_eval_string("{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}"), "firstName");
+	
+	lr_save_string(lr_eval_string("{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}"), "lastName");
+	
+	lr_save_string(lr_eval_string("{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}{generatorData}"), "address");
+	
+	return 0;
+}
+
+goToSignUp(){
+	
+	lr_start_transaction("goToSignUp");
+
+		(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
+	
+		lr_think_time(12);
+	
+		web_url("sign up now", 
+			"URL=http://localhost:8090/WebTours/login.pl?username=&password=&getInfo=true", 
+			"TargetFrame=body", 
+			"Resource=0", 
+			"RecContentType=text/html", 
+			"Referer=http://localhost:8090/WebTours/home.html", 
+			"Snapshot=t2.inf", 
+			"Mode=HTML", 
+			"LAST");
+
+	lr_end_transaction("goToSignUp",2);
+	
+	return 0;
+}
+registration (){
+	
+	lr_start_transaction("registration");
+
+		web_add_header("Origin","http://localhost:8090");
+	
+		web_add_header("Upgrade-Insecure-Requests", "1");
+		
+
+	web_reg_find("Text=Thank you, <b>{userLogin}</b>, for registering and welcome to the Web Tours family.","LAST");
+
+		lr_think_time(24);
+	
+		web_submit_form("login.pl", 
+			"Snapshot=t3.inf", 
+			"ITEMDATA", 
+			"Name=username", "Value={userLogin}", "ENDITEM", 
+			"Name=password", "Value={userPassword}", "ENDITEM", 
+			"Name=passwordConfirm", "Value={userPassword}", "ENDITEM", 
+			"Name=firstName", "Value={firstName}", "ENDITEM", 
+			"Name=lastName", "Value={lastName}", "ENDITEM", 
+			"Name=address1", "Value={address}", "ENDITEM", 
+			"Name=address2", "Value={address}", "ENDITEM", 
+			"Name=register.x", "Value=45", "ENDITEM", 
+			"Name=register.y", "Value=15", "ENDITEM", 
+			"LAST");
+
+	lr_end_transaction("registration",2);
+	
+	return 0;
+}
+
+regContinue () {
+
+	lr_start_transaction("regContinue");
+
+	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
+
+	web_url("Home Button", 
+		"URL=http://localhost:8090/WebTours/welcome.pl?page=menus", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:8090/WebTours/login.pl", 
+		"Snapshot=t4.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	lr_end_transaction("regContinue",2);
+
+return 0 ;
+}
 # 9 "globals.h" 2
 
 
@@ -2855,6 +2995,7 @@ lr_start_transaction("UC_1_BuyTicket");
 	findFlight();
 	choose_flight();
 	paymentDetails();
+	goToitinerary();  
 	logout();
 	
 	lr_end_transaction("UC_1_BuyTicket", 2);
