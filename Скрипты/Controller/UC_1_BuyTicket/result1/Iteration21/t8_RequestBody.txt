@@ -1,4 +1,0 @@
-"firstName=Nick&lastName=Veselkov&address1=Mira&address2=Berezniki&pass1=Nick+Veselkov&creditCa"
-"rd=1315467984325&expDate=07%2F26&oldCCOption=&numPassengers=1&seatType=Business&seatPref=Aisle"
-"&outboundFlight=670%3B126%3B10%2F28%2F2022&advanceDiscount=0&returnFlight=&JSFormSubmit=off&bu"
-"yFlights.x=61&buyFlights.y=10&.cgifields=saveCC"

@@ -1,0 +1,11 @@
+[t2]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=DummyContentType
+StepName=Url: WebTours
+Total=0
+RequestHeaderFile=t2_RequestHeader.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+RawStepEndTime=1667540077303
+RawStepName=WebTours
+RequestBodyFile=t2_RequestBody.txt
+RawStepStartTime=1667540075269

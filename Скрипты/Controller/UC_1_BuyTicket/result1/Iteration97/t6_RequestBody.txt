@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Frankfurt&departDate=10%2F28%2F2022&arrive=Sydney&returnDate=10%2F31%"
-"2F2022&numPassengers=1&seatPref=Window&seatType=Business&findFlights.x=61&findFlights.y=9&.cgi"
-"fields=roundtrip&.cgifields=seatType&.cgifields=seatPref"

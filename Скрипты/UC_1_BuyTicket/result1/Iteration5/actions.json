@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [],
+        "transactions": [
+            {
+                "transactionName": "homePage",
+                "rawStartTime": 1667540081647,
+                "rawEndTime": 1667540082973,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0014646053314208985
+            },
+            {
+                "transactionName": "UC_1_BuyTicket",
+                "rawStartTime": 1667540081631,
+                "rawEndTime": 1667540082973,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0014646053314208985
+            }
+        ]
+    }
+]
